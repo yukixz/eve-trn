@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  max-width: 896px;
+  margin: 0 auto;
+}
+
+.App th * {
+ margin-left: 1rem; 
+}
+.App td {
+  width: 50%;
+}
+.App tr.more {
+  font-style: italic;
+}
