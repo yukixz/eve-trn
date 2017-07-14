@@ -764,11 +764,6 @@
 95th Interstellar Mindclash Championship Tickets	第95届星际思维冲击冠军赛门票
 9D Logic Keycard	9D逻辑钥匙卡片
 9th Tier Overseer's Personal Effects	9级监察官的个人财产
-Cloak reactivation delay and targeting delay reduced to 5 seconds	隐形装置重启延时和锁定延时降到5秒
-Cloak reactivation delay reduced to 15 seconds	隐形装置重启延时降到15秒
-Cloak reactivation delay reduced to 5 seconds	隐形装置重启延时降到5秒
-Cloak reactivation delay reduced to 5 seconds	隐形装置重启延时降到5秒
-Energy Nosferatu fitted to this ship will drain targeted ship's capacitor regardless of your own capacitor level	这艘舰船的掠能器可以无视自身剩余电容量而对目标舰船的电容无限吸取
 A Big Red Button	红色大按钮
 A Handful of Tiny Stars	一捧微型星球
 A Hired Saboteur	受雇的阴谋者
@@ -776,6 +771,7 @@ A Letter Of Complaint	投诉信
 A Lot of Money	一堆钱
 A Really REALLY Clueless Tourist	一个非常郁闷的旅行者
 A Tank of Honor	一罐荣耀
+A micro warp drive effect for fighters.	铁骑舰载机的微型跃迁引擎效果。
 A piece of Steve	史蒂夫的残片
 A-211 Enduring Guidance Disruptor	A-211持久型制导干扰器
 AE-K Compact Drone Damage Amplifier	AE-K紧凑型无人机伤害增效装置
@@ -1750,6 +1746,9 @@ Amolah Kesti's Data Fragment I	埃莫拉·科斯提的数据片断 I
 Amolah Kesti's Data Fragment II	埃莫拉·科斯提的数据片断 II
 Amolah Kesti's Data Fragment III	埃莫拉·科斯提的数据片断 III
 Amount Destroyed On Steal	虹吸摧毁量
+Ampere	安培
+Ampere per meter	安培/米
+Ampere per square meter	安培/平方米
 Amphere 9	安非尔9
 Ample Compounds	充裕型化合物
 Ample Conductors	充裕型导体
@@ -1801,6 +1800,8 @@ Anathema Raata Sunset Serenity Only SKIN (Permanent)	咒逐级拉塔日落涂装
 Ancestral Armor	祖传装甲
 Anchoring	空间定锚
 Anchoring Delay	锚定耗时
+Anchoring this object in space.	在太空中锚定这个物体。
+Anchoring this object in space.	正在太空中锚定这个物体。
 Ancient Acceleration Gate	远古加速轨道
 Ancient Amarrian Relic	古老的艾玛遗物
 Ancient Ciphering Totem	远古加密图腾
@@ -3001,6 +3002,7 @@ Atron YC119 Yoiul Festival 'Glacial Drift' Edition SKIN (Permanent)	阿特龙级
 Attack Battlecruiser	攻击战列巡洋舰
 Attack Damage Boost	攻击伤害提高
 Attainment Decryptor	获取装置解码器
+Attempts to prevent the target from warping.	阻止目标进行跃迁。
 Attribute Enhancers	属性增强体
 Auctioneer	拍卖者
 Audesder	奥德斯代尔
@@ -3118,6 +3120,7 @@ Automated Targeting System	自动锁定系统
 Automated Targeting System Blueprint	自动锁定系统蓝图
 Automated Targeting Systems	自动锁定系统
 Automated Targeting Unit I	自动锁定元件 I
+Automatically generated effect	自动生成效果
 Autopilot	自动导航
 Autothysian Lancer	塞申长矛手
 Autotrophs	自养生物
@@ -3263,6 +3266,7 @@ Bandit Mechanic	土匪机械师
 Bandit Saboteur	强盗 阴谋者
 Bandit Spur	强盗的马刺
 Bandwidth Needed	带宽需求
+Bandwidth for PI	行星互动的带宽
 Banidine	班尼德勒石
 Banned in Empire Space	帝国区禁用
 Banned in High Sec Space	禁止进入高安全星系
@@ -3346,6 +3350,7 @@ Barou Lardoss's Iteron	巴洛·拉多斯的伊特龙
 Barracuda Alvi	梭鱼阿维伊
 Barracuda Drone	梭鱼无人机
 Barrage Attack	弹幕攻击
+Barrage Attack, Attack with barrageDmgMultiplier as a damage multiplier	弹幕攻击，以弹幕伤害乘数作为伤害乘数进行攻击
 Barrage L	雷暴 L
 Barrage L Blueprint	雷暴蓝图 L
 Barrage M	雷暴 M
@@ -3990,9 +3995,12 @@ Bono Zakan Corpse	波诺·扎肯的尸骸
 Bonus	加成
 Bonus to Fighter Hangar size	铁骑舰载机挂舱容量加成
 Bonus to doomsday secondary target damage reduction	末日武器次要目标伤害衰减加成
+Bonus to optimal range of Data Analyzer and Relic Analyzers	数据分析仪和遗迹分析仪最佳射程加成
 Book of St. Arzad	圣阿尔扎德之书
 Bookmark	位标
 Boost Amplifiers	护盾回充增量放大器
+Boost of damageMultiplier by PreMul of skillLevel	伤害乘数乘以原始技能等级后得到的加成值
+Boost of damageMultiplierBonus by PreMul of skillLevel	伤害乘数加成乘以原始技能等级后得到的加成值
 Boosted repair multiplier	增强模式时修复量增量倍数
 Booster	增效剂
 Booster Blueprints	增效体蓝图
@@ -5065,42 +5073,31 @@ Can Be Jettisoned	可以被投弃
 Can be fitted to	可以装配至
 Can be fitted to	可装配至
 Can deploy 1 additional drone	每升一级可多部署一架无人机
+Can fit Bastion modules	可以装配堡垒装备
+Can fit Burst Projectors	可装配脉冲波投射器
+Can fit Clone Vat Bay	可以装配克隆舱
+Can fit Covert Cynosural Field Generator and Covert Jump Portal Generator	可以装备隐秘诱导力场发生器和隐秘跳跃通道发生器
+Can fit Covert Cynosural Field Generator and Covert Jump Portal Generator	可以装备隐秘诱导力场发生器和隐秘跳跃通道发生器。
 Can fit Covert Ops Cloaking Device	可以装配隐秘行动隐形装置
-Can fit Covert Ops Cloaking Device	可以装配隐秘行动隐形装置
-Can fit Covert Ops Cloaking Device and Covert Cynosural Field Generator	可以装备隐秘行动隐形装置和隐秘诱导力场发生器
 Can fit Covert Ops Cloaking Device and Covert Cynosural Field Generator	可以装备隐秘行动隐形装置和隐秘诱导力场发生器
 Can fit Covert Ops Cloaking Device, Covert Cynosural Field Generator and Bomb Launcher	可以装备 隐秘行动隐形装置、隐秘诱导力场发生器和炸弹发射器
 Can fit Covert Ops Cloaking Device, Covert Cynosural Field Generator and Bomb Launcher	可以装备隐秘行动隐形装置、隐秘诱导力场发生器和炸弹发射器
-Can fit Siege modules	可装配会战装备
-Can fit Prototype Iris Probe Launcher	可以装配彩虹女神探针发射器原型机
-Can fit Interdiction Sphere Launcher	可以安装拦截泡发射器
-Can fit Clone Vat Bay	可以装配克隆舱
-Can fit Burst Projectors	可装配脉冲波投射器
 Can fit Industrial Core	可以装配工业核心
-Can fit Covert Cynosural Field Generator and Covert Jump Portal Generator	可以装备隐秘诱导力场发生器和隐秘跳跃通道发生器
-Can fit Covert Cynosural Field Generator and Covert Jump Portal Generator	可以装备隐秘诱导力场发生器和隐秘跳跃通道发生器。
-Can fit Warp Disruption Field Generator	可以装配跃迁扰断力场发生器
-Can fit Warp Disruption Field Generator	可以装配跃迁扰断力场发生器
-Can fit Bastion modules	可以装配堡垒装备
-Can fit Bastion modules	可以装配堡垒装备
-Can fit Warfare Link modules	可以装配作战网络装备
-Can fit Warfare Link modules	可以装配作战网络装备
-Can fit Purloined Sansha Data Analyzer	可以装配缴获的萨沙数据分析仪
-Can fit Networked Sensor Array	可装配联网感应器阵列
+Can fit Interdiction Sphere Launcher	可以安装拦截泡发射器
 Can fit Micro Jump Field Generators	可以装配微型跳跃力场发生器
-Can fit a Siege module	可装配会战装备
-Can fit a Siege module	可装配会战装备
+Can fit Networked Sensor Array	可装配联网感应器阵列
+Can fit Prototype Iris Probe Launcher	可以装配彩虹女神探针发射器原型机
+Can fit Purloined Sansha Data Analyzer	可以装配缴获的萨沙数据分析仪
+Can fit Siege modules	可装配会战装备
+Can fit Warfare Link modules	可以装配作战网络装备
+Can fit Warp Disruption Field Generator	可以装配跃迁扰断力场发生器
 Can fit a Clone Vat Bay module	可以装配克隆舱
-Can fit a Clone Vat Bay module	可以装配克隆舱
-Can fit a Jump Portal Generator module	可以装配跳跃通道发生器
-Can fit a Jump Portal Generator module	可以装配跳跃通道发生器
 Can fit a Doomsday module	可装配末日武器装置
-Can fit a Triage module	可装配会战型紧急修复增强模块
-Can fit a Phenomena Generator module	可以装配一个天象发生器装备
-Can fit a Phenomena Generator module	可以装配一个天象发生器装备
-Can fit a Phenomena Generator module	可以装配一个天象发生器装备
+Can fit a Jump Portal Generator module	可以装配跳跃通道发生器
 Can fit a Phenomena Generator module	可以装配一个天象发生器装备
 Can fit a Phenomena Generator module	可以装配一个米玛塔尔或盖伦特天象发生器装备
+Can fit a Siege module	可装配会战装备
+Can fit a Triage module	可装配会战型紧急修复增强模块
 Can fit one Pulse Activated Nexus Invulnerability Core module	可以装配一个脉冲激活式关联全能核心装备
 Can fit three Command Burst modules	可以装配三个指挥脉冲波装备
 Can fit two Command Burst modules	可以装配两个指挥脉冲波装备
@@ -5112,6 +5109,8 @@ Can use 3 Warfare Link modules simultaneously	可以同时使用三个作战网�
 Can use one Command Burst module	可以装配一个指挥脉冲波装备
 Can use three Command Burst modules	可以装配三个指挥脉冲波装备
 Can use two Command Burst modules	可以装配两个指挥脉冲波装备
+Candela	坎德拉
+Candela per square meter	坎德拉/平方米
 Cannot Auto Repeat	无法自动重复
 Cannot Use Stargates	不能使用星门
 Cannot be detected by directional scanners	不能被定向扫描器探测到
@@ -6243,6 +6242,7 @@ Chameleon	变色龙级
 Chameleon Blueprint	变色龙级蓝图
 Chance of Side Effect	副作用几率
 Chandler	杂货商船
+Changes the shield boost amount by a percentage	以百分比改变护盾增效量
 Chanounian Wine	查浓酒
 Chapel Container	礼拜堂货柜
 Chapel of the Obsidian	黑曜石礼拜堂
@@ -6598,6 +6598,9 @@ Clearance Papers	许可文件
 Cliene Veine's Dominix	科利安·韦恩的多米尼克斯级飞船
 Cloak Enhancements	隐形增强
 Cloak Reactivation Delay	隐身再入延迟
+Cloak reactivation delay and targeting delay reduced to 5 seconds	隐形装置重启延时和锁定延时降到5秒
+Cloak reactivation delay reduced to 15 seconds	隐形装置重启延时降到15秒
+Cloak reactivation delay reduced to 5 seconds	隐形装置重启延时降到5秒
 Cloaked Cache	隐身货柜
 Cloaking	隐形理论
 Cloaking	隐身
@@ -6735,6 +6738,7 @@ Com Relay	通信中继站
 ComLink Encoder/Decoder	信道加密/破译器
 ComLink Scanner	接入信号扫描器
 Comatose Alena Karyn	昏睡的阿勒纳·卡林
+Combat	战斗
 Combat Battlecruiser	战斗战列巡洋舰
 Combat Drone	战斗无人机
 Combat Drone Blueprint	战斗无人机蓝图
@@ -7977,6 +7981,8 @@ Crystalline Icicle	晶冰
 Crystallite Alloy	微晶合金
 Crystallite Alloy Reaction	微晶合金反应
 Crystals Take Damage	晶体损耗
+Cubic meter	立方米
+Cubic meter per kilogram	立方米/千克
 Cura Gigno	库拉·吉格诺
 Curator I	监护官 I
 Curator I Blueprint	监护官蓝图 I
@@ -8561,6 +8567,7 @@ Datacore - Talocan Tech 1	数据核心—塔洛迦科技 1
 Datacore - Yan Jung Tech 3	数据核心—燕军科技 3
 Datacore - Yan Jung Tech 5	数据核心—燕军科技 5
 Datacores	数据核心
+Date and time	日期和时间
 Daubs Louel	岛布斯·罗伊尔
 Days added to subscription	游戏时间增加天数
 Daytrading	投机技巧
@@ -8766,6 +8773,7 @@ Depleted Uranium XL	硬钼弹 XL
 Depleted Uranium XL Blueprint	硬钼弹蓝图 XL
 Deployable	可部署物品
 Deployable Structures	可部署建筑
+Deployment of pledges from a ship to a planet.	从舰船到行星的约定部署。
 Depository	仓库
 Derelict Talocan Frigate	荒弃的塔洛迦护卫舰
 Derqa Mandame's Bunker	德奇·曼达姆的堡垒
@@ -9617,6 +9625,7 @@ Drezins Capsule	德勒辛的逃生舱
 Drifter	流浪者
 Drifter Battleship	流浪者战列舰
 Drifter Battleship Wreck	流浪者战列舰残骸
+Drifter Controlled effect for NPE NPCs.	新手期NPC被流浪者控制的效果。
 Drifter Hive	流浪者母巢
 Drifter Hive Explosion	流浪者母巢爆炸
 Drifter Response Battleship	流浪者反击战列舰
@@ -10349,6 +10358,7 @@ Energy Neutralizing Battery	能量中和波发射台
 Energy Neutralizing Battery Blueprint	能量中和炮台蓝图
 Energy Nosferatu	掠能器
 Energy Nosferatu Blueprint	掠能器蓝图
+Energy Nosferatu fitted to this ship will drain targeted ship's capacitor regardless of your own capacitor level	这艘舰船的掠能器可以无视自身剩余电容量而对目标舰船的电容无限吸取
 Energy Pulse Weapons	能量脉冲武器
 Energy Transfer Array Power Need	能量转移阵列能量需求
 Energy Turrets	能量炮台
@@ -11426,6 +11436,9 @@ Food Packaging	食品包装厂
 Food-Borne Toxin	食物毒素
 Fools Crokite	假克洛基石
 Footwear	鞋靴
+For anything which is divided by levels	用于那些以等级划分的事物
+For displaying boolean flags	用于显示布尔标记
+For various counts to do with turret, launcher and rig hardpoints	用于各种炮塔、发射器以及改装件的装配点数量
 Force Auxiliaries	战力辅助舰
 Force Auxiliary	战力辅助舰
 Force Auxiliary Blueprint	战力辅助舰蓝图
@@ -11436,6 +11449,7 @@ Force Recon Ship	力场侦察舰
 Force Repeller Relic	古代力场排斥器
 Force Unanchor	强行解除锚定
 Forcefield Array	力场阵列
+Forces a plus sign for positive values	用于正值的加号
 Foreman's Head	工头的头颅
 Forged Frigate Blueprints	伪造的护卫舰蓝图
 Forged Waypoint Logs	伪造的航标日志
@@ -12146,6 +12160,7 @@ Giant Sealed Cargo Containers	加大型密封货柜
 Giant Secure Container	巨大的安全货柜
 Giant Secure Container Blueprint	巨大的安全货柜蓝图
 Giant Snake-Shaped Asteroid	巨蛇型小行星
+Giga Joule	千兆焦耳
 Gila	毒蜥级
 Gila Blueprint	毒蜥级蓝图
 Gila Serenity YC117 SKIN (30 Days)	毒蜥级YC117年涂装（30天）
@@ -13786,6 +13801,7 @@ Hound Valklear Glory Serenity Only SKIN (365 Days)	猎犬级瓦基尔荣耀涂�
 Hound Valklear Glory Serenity Only SKIN (7 Days)	猎犬级瓦基尔荣耀涂装（7天）
 Hound Valklear Glory Serenity Only SKIN (90 Days)	猎犬级瓦基尔荣耀涂装（90天）
 Hound Valklear Glory Serenity Only SKIN (Permanent)	猎犬级瓦基尔荣耀涂装（无限期）
+Hours	小时
 House Arachnan Legal Documents	埃拉克兰家族的法律文档
 House Methros Coat of Arms	梅多尔斯家族的盾徽
 Hraldar's Sculpture	希拉达的雕塑
@@ -14123,7 +14139,6 @@ Immobility Duration	无法移动持续时间
 Immolator	献祭者级
 Immolator Blueprint	献祭者级蓝图
 Immovable Enigma	隐秘级
-Immune to Interdiction Sphere Launcher, Warp Disruption Field Generator and Mobile Small, Medium and Large Warp Disruptor	对拦截泡发射器、跃迁扰断力场发生器与机动小型、中型及大型跃迁扰断器免疫
 Immune to Interdiction Sphere Launcher, Warp Disruption Field Generator and Mobile Small, Medium and Large Warp Disruptor	对拦截泡发射器、跃迁扰断力场发生器与小型、中型及大型机动跃迁扰断器免疫
 Immune to Interdiction Sphere Launcher, Warp Disruption Field Generator and Mobile Small, Medium and Large Warp Disruptor	对拦截泡发射器、跃迁扰断力场发生器与机动小型、中型及大型跃迁扰断器免疫
 Immune to all Cargo Scanners	免疫货舱扫描
@@ -14732,6 +14747,7 @@ Indestructible Freight Pad	LCO货运平台
 Indestructible Landing Pad	LCO降落平台
 Indestructible Minmatar Starbase	米玛塔尔母星控制塔_LCO
 Indestructible Radio Telescope	LCO 射电望远镜
+Indicates that the unit is a multiplier.	表明该单位是乘数。
 Indirect Scanning Dampening Unit I	间接式扫描器抑阻元件 I
 Indirect Target Acquisition I	间接式目标锁定器 I
 Individuals	特殊人物
@@ -15505,6 +15521,7 @@ Keepstar Lights On	星城光源开启
 Keepstar Wreck	星城残骸
 Keizo Veron	克佐·维隆
 Kelmiler's Transaction Documents 18992 D	科尔米勒的交易文件18992 D
+Kelvin	开尔文
 Kennel of Hybrid Slaver Hounds	一窝混血猎奴犬
 Kenobanala	科诺巴纳拉
 Kepheur's DNA	卡弗尔的DNA
@@ -15685,6 +15702,9 @@ Kidnapped Citizens	被绑架的公民
 Kidnapping Evidence	绑架的证物
 Kikko Roisen's Retribution	奇科·鲁瓦森的审判者飞船
 Killer Instinct Bonus	杀手本性加成
+Kilogram	千克
+Kilogram per cubic meter	千克/立方米
+Kilogram per kilogram, which may be represented by the number 1	千克/千克，可用数字1表示
 Kimo Sekuta	击莫·瑟库塔
 Kinetic Armor Compensation	动能装甲补偿理论
 Kinetic Armor Hardeners	动能装甲增强器
@@ -18345,6 +18365,7 @@ Mega Pulse Laser I	超级脉冲激光器 I
 Mega Pulse Laser I Blueprint	超级脉冲激光器蓝图 I
 Mega Pulse Laser II	超级脉冲激光器 II
 Mega Pulse Laser II Blueprint	超级脉冲激光器蓝图 II
+Mega bits per second	兆比特/秒
 Megacorp Management	大型军团管理培训
 Megacyte	超噬矿
 Megathron	万王宝座级
@@ -18780,6 +18801,9 @@ Metallofullerene Plating	金属富勒烯附甲
 Metallofullerene Plating Blueprint	金属富勒烯附甲蓝图
 Metallurgy	冶金学
 Meteor Cloud	流星云
+Meter	米
+Meter per second	米/秒
+Meter per second squared	米/平方秒
 Methanofullerene	亚甲基富勒烯
 Methanofullerene Reaction	亚甲基富勒烯反应
 Methros Enhanced Decoding Device	梅多尔斯加强解码器
@@ -19786,6 +19810,9 @@ Modulated Strip Miner II	调制型露天采矿器 II
 Modulated Strip Miner II Blueprint	调制型露天采矿器蓝图 II
 Module	装备
 Module Repair Rate Bonus	装备维修速率加成
+Modules found in deadspace.	死亡空间里的装备
+Mole	摩尔
+Mole per cubic meter	摩尔/立方米
 Molecular Engineering	分子工程学
 Molok	摩洛克级
 Money	钱
@@ -19958,6 +19985,8 @@ Munitions Freight	军需运输学
 Muon Coil Bolt Array I	介子卷闩动阵列 I
 Murchor's Tempest	默奇尔的狂暴级飞船
 Museum Arcana Guest Pass	阿卡纳博物馆游客通行证
+Must be installed into an available subsystem slot on a Tech III ship.	必须装在三级科技舰船的一个子系统槽上。
+Must be installed into an open rig slot	必须安装在一个空的改装件槽位中
 Mutama Czeik's Rifter	穆塔马·切科的裂谷级飞船
 Mutated Drone Parasite	变异的寄生无人机
 My God, It’s Full Of Holes!	天哪，全是洞！
@@ -20373,8 +20402,8 @@ Nitrogen Fuel Block Blueprint	氮燃料块蓝图
 Nitrogen Isotopes	氮同位素
 Nitrus' Vigil	尼特鲁的守夜者级飞船
 Nitrut's Vigil	尼特鲁特的守夜者级飞船
+No activity	无活动
 No penalty to ship max velocity when using Cloaking Devices	使用隐形装置时对舰船的最大速度没有惩罚
-No targeting delay after Cloaking Device deactivation	重新启动隐形装置后不遭受锁定延时副作用
 No targeting delay after Cloaking Device deactivation	重新启动隐形装置后不遭受锁定延时副作用
 Nobayashi's Incursus	诺巴雅斯的因卡萨斯级飞船
 Noble Gas	稀有气体
@@ -23063,6 +23092,7 @@ Rebels	起义者
 Reborn	再生者
 Reception Center	接待中心
 Recharge Rate Bonus	回充速率加成
+Reciprocal meter	米倒数
 Reclaimed Organics	再生的有机体
 Recon Probe Launcher II	侦测探针发射器 II
 Recon Probe Launcher II Blueprint	侦测探针发射器蓝图 II
@@ -23580,6 +23610,10 @@ Required chassis Type	所需炮座类别
 Requires Infrastructure Upgrade	需要基础设施升级件
 Requires Other Clothing Types	需要其他服饰类别
 Requires Sovereignty	需要主权
+Requires a high power slot.	需要一个高能量槽
+Requires a low power slot.	需要一个低能量槽
+Requires a medium power slot.	需要一个中能量槽
+Requires a service slot.	需要一个服务槽位
 Rerina Tarit's Phantasm	勒利纳·塔里的幽灵级飞船
 Research	研究概论
 Research Abstract: Project Algintal	研究摘要：阿根塔计划
@@ -23623,6 +23657,8 @@ Research Warehouse	研究仓库
 Researching Material Efficiency	研究材料效率
 Researching Technology	研究技术
 Researching Time Efficiency	研究时间效率
+Researching material efficiency	研究材料效率
+Researching time efficiency	研究时间效率
 Reserve Gravimetric Scanners	备用引力扫描器 I
 Reserve Ladar Scanners	后备光雷达扫描器
 Reserve Magnetometric Scanners	备用磁力扫描器 I
@@ -24092,6 +24128,7 @@ Rorqual Sansha Industrial Livery SKIN (Permanent)	长须鲸级萨沙工业制服
 Rorqual Wreck	长须鲸级残骸
 Rost's Ferox	鲁斯特的猛鲑级飞船
 Rosulf Fririk	罗瑟夫·弗里力克
+Rotation speed.	转速。
 Rotgut	卢加特
 Router Encryption Key	路由器加密钥匙
 Rubin Basic Particle Bore Stream	鲁宾基础型粒子激光钻
@@ -24538,6 +24575,7 @@ Sayto's Badger Mark II	萨托的獾级MKII
 Scalar Capacitor Unit	标量电容器单元
 Scalar Capacitor Unit Blueprint	标量电容器单元蓝图
 Scale Model Of [RFS] Mah’tu Rea	RFS马图瑞的等比模型
+Scales the capacitor need for all the fitted turret weapons.	按照比例修正所有已装载的炮台武器电容需求。
 Scalpel	手术刀级
 Scalpel Blueprint	手术刀级蓝图
 Scalpel Tronhadar Ink SKIN (Permanent)	手术刀级隆哈达之墨涂装（无限期）
@@ -24581,6 +24619,7 @@ Scan Resolution Script Blueprint	扫描分辨率修正脚本蓝图
 Scan Speed Bonus	扫描速度加成
 Scan Strength Bonus	扫描强度加成
 Scan resolution reduction multiplier	扫描分辨率衰减系数
+Scan the solar system.	扫描星系
 Scandium	钪
 Scandium Metallofullerene	金属富勒烯钪
 Scandium Metallofullerene Reaction	金属富勒烯钪反应
@@ -24857,6 +24896,7 @@ Searcher Drone_MISSION Spawn	搜索无人机_任务_刷新
 Seasoned Dandruff	风干的头屑
 Sebiestor	赛毕斯托
 Sebiestor Bonus	赛毕斯托加成
+Second	秒
 Second-hand Parts	二手零件
 Secondary Manufacture Component	次级制造组件
 Secondary Parallel Link-Capacitor	二级并联电容器
@@ -25833,6 +25873,7 @@ Shock S Blueprint	震击蓝图 S
 Shogon	索格恩
 Short Attention Span Bonus	目光短浅加成
 Short Pixie Hair	精巧短发
+Shows seconds directly	直接显示秒
 Shrapnel Bomb	榴霰炸弹
 Shrapnel Bomb Blueprint	榴霰炸弹蓝图
 Shredder Alvior	绞肉者阿维尔
@@ -26252,6 +26293,7 @@ Sleipnir Valklear Glory Serenity Only SKIN (7 Days)	斯雷普尼级瓦基尔荣�
 Sleipnir Valklear Glory Serenity Only SKIN (90 Days)	斯雷普尼级瓦基尔荣耀涂装（90天）
 Sleipnir Valklear Glory Serenity Only SKIN (Permanent)	斯雷普尼级瓦基尔荣耀涂装（无限期）
 Slot	槽位
+Slot number prefix for various purposes	用于多种场合的槽位数字前缀
 Small	小型
 Small 'Accommodation' Vestment Reconstructer I	小型自适应外壳重塑装置 I
 Small 'Arup' Remote Armor Repairer	阿拉普小型远程装甲维修器
@@ -26975,6 +27017,7 @@ Spy	间谍
 Spy ID Slice	间谍ID牌
 Squadron Command Bonus	中队指挥加成
 Squadron Size	中队大小
+Square meter	平方米
 St. Arzad	圣阿尔扎德
 Stabber	刺客级
 Stabber Blue Tiger SKIN (Permanent)	刺客级蓝虎涂装（无限期）
@@ -28196,6 +28239,39 @@ Structure Resource Rig M - Ice 1 Reprocessing	建筑资源中型改装件 - 冰�
 Structure Resource Rig M - Ice 2 Reprocessing	建筑资源中型改装件 - 冰矿提炼 2
 Structure Resource Rig M - LNS Ore Reprocessing	建筑资源中型改装件 - LNS矿石提炼
 Structure Resource Rig XL - Reprocessing	建筑资源超大型改装件 - 提炼
+Structure Rig Cost effect on Copying	建筑改装件对拷贝的成本影响效果
+Structure Rig Cost effect on Invention	建筑改装件对发明的成本影响效果
+Structure Rig Cost effect on ME Research	建筑改装件对材料效率研究的成本影响效果
+Structure Rig Cost effect on TE Research	建筑改装件对时间效率研究的成本影响效果
+Structure Rig Material effect on Manufacturing of Basic Capital Components	建筑改装件对制造基础旗舰组件的材料影响效果
+Structure Rig Material effect on Manufacturing of Capital ships	建筑改装件对制造旗舰的材料影响效果
+Structure Rig Material effect on Manufacturing of advanced components	建筑改装件对制造高级组件的材料影响效果
+Structure Rig Material effect on Manufacturing of advanced large ships	建筑改装件对制造高级大型舰船的材料影响效果
+Structure Rig Material effect on Manufacturing of advanced medium ships	建筑改装件对制造高级中型舰船的材料影响效果
+Structure Rig Material effect on Manufacturing of advanced small ships	建筑改装件对制造高级小型舰船的材料影响效果
+Structure Rig Material effect on Manufacturing of all ships	建筑改装件对制造所有舰船的材料影响效果
+Structure Rig Material effect on Manufacturing of ammo	建筑改装件对制造弹药的材料影响效果
+Structure Rig Material effect on Manufacturing of drones	建筑改装件对制造无人机的材料影响效果
+Structure Rig Material effect on Manufacturing of equipment	建筑改装件对制造设备的材料影响效果
+Structure Rig Material effect on Manufacturing of large ships	建筑改装件对制造大型舰船的材料影响效果
+Structure Rig Material effect on Manufacturing of medium ships	建筑改装件对制造中型舰船的材料影响效果
+Structure Rig Material effect on Manufacturing of small Ships	建筑改装件对制造小型舰船的材料影响效果
+Structure Rig Material effect on Manufacturing of structures	建筑改装件对制造建筑的材料影响效果
+Structure Rig Time effect on Copying	建筑改装件对拷贝的时间影响效果
+Structure Rig Time effect on Invention	建筑改装件对发明的时间影响效果
+Structure Rig Time effect on Manufacturing of Capital Ships	建筑改装件对制造旗舰的时间影响效果
+Structure Rig Time effect on Manufacturing of advanced large ships	建筑改装件对制造高级大型舰船的时间影响效果
+Structure Rig Time effect on Manufacturing of advanced medium ships	建筑改装件对制造高级中型舰船的时间影响效果
+Structure Rig Time effect on Manufacturing of advanced small ships	建筑改装件对制造高级小型舰船的时间影响效果
+Structure Rig Time effect on Manufacturing of ammo	建筑改装件对制造弹药的时间影响效果
+Structure Rig Time effect on Manufacturing of basic capital components	建筑改装件对制造基础旗舰组件的时间影响效果
+Structure Rig Time effect on Manufacturing of drones	建筑改装件对制造无人机的时间影响效果
+Structure Rig Time effect on Manufacturing of equipment	建筑改装件对制造设备的时间影响效果
+Structure Rig Time effect on TE Research	建筑改装件对时间效率研究的时间影响效果
+Structure Rig time effect on Manufacturing of large ships	建筑改装件对制造大型舰船的时间影响效果
+Structure Rig time effect on Manufacturing of medium ships	建筑改装件对制造中型舰船的时间影响效果
+Structure Rig time effect on Manufacturing of small ships	建筑改装件对制造小型舰船的时间影响效果
+Structure Rig time effect on Manufacturing of structures	建筑改装件对制造建筑的时间影响效果
 Structure Scan Resolution Booster	建筑扫描分辨率增强器
 Structure Scan Resolution Booster Blueprint	建筑扫描分辨率增强器蓝图
 Structure Scanner Array	建筑扫描器阵列
@@ -28827,6 +28903,7 @@ Tech II	二级科技
 Tech III	三级科技
 Tech Level	科技等级
 Technetium	锝
+Technological research	技术研发
 Tehjus Otsini's Bustard	特居·欧斯尼的大鸨级飞船
 Tehmi Anieu	特尔米·亚尼尤
 Teinei Kuma	忒内·库马
@@ -29104,6 +29181,9 @@ The Syndicate	辛迪加财团
 The Terminus Stream	死亡之流
 The Thief	盗贼
 The Traumark Installation	图马克
+The process of creating a blueprint from an item.	根据物品制作蓝图。
+The process of creating a more advanced item based on an existing item	根据现有物品创造一个更高级的物品。
+The process of creating an item, by studying an already existing item.	通过研究现有物品来创造另一物品。
 Theology Council Listening Post	神学理事会情报站
 Theoretical Maximum Targeting Range	锁定范围理论上限值
 Thermal Armor Compensation	热能装甲补偿理论
@@ -29634,6 +29714,7 @@ Tribunal	法庭
 Triclinic Bistot	三晶双多特斜岩
 Trigger Unit	触发机关
 Trigger-happy Bonus	多动症加成
+Triggering of an EMP wave being broadcast into space.	触发电磁脉冲波并向太空传播。
 Trinary Data	三进制数据
 Triple Neutron Blaster Cannon I	三中子疾速加农炮 I
 Triple Neutron Blaster Cannon I Blueprint	三中子疾速加农炮蓝图 I
@@ -30174,6 +30255,7 @@ Unit W-634's Modified Omnidirectional Tracking Enhancer	W-634的改良型全方�
 Unit W-634's Modified Omnidirectional Tracking Link	W-634的改良型全方位索敌连接
 Unit W-634's Modified Sensor Booster	W-634单元改良型感应增强器
 Unit of Lag	滞时单元
+Units of something, for example fuel	某样物品的单位，比如燃料
 Universal Agent Finder	通用代理人搜寻器
 Universal Station Door Button	通用空间站门按钮
 Universal Undock Button	通用离站按钮
@@ -30271,6 +30353,21 @@ Urat Mehrekar's Bunker	乌拉特·梅卡尔的堡垒
 Urigamu's Crow	尤希嘉穆的黑鸦级飞船
 Urigamu_Warehouse_MISSION	尤里迦姆库房_任务
 Uroborus	轮回
+Used for multipliers displayed as %
+1.1 = +10%
+0.9 = -10%	用于乘数，显示为 %
+1.1 = +10%
+0.9 = -10%
+Used for real percentages, i.e. the number 5 is 5%	用于真实百分比，比如数字5表示5%
+Used for relative percentages displayed as %	用于相对百分比，显示为 %
+Used for resistance.
+0.0 = 100% 1.0 = 0%	用于抗性。0.0 = 100% 1.0 = 0%
+Used to buy insurance for ships.	用来为舰船购买保险。
+Used to denote distance, 1AU = The distance from the Earth to the Sun.	表示距离，1AU等于地球到太阳的距离。
+Used to modify damage resistance. Damage resistance bonus.
+0.1 = 90%
+0.9 = 10%	用来调整伤害抗性。伤害抗性加成。0.1 = 90%
+0.9 = 10%
 Used with (Charge Group)	配套使用（弹药类别）
 Used with (Launcher Group)	配套使用（发射器类别）
 Uses Covert Technology	使用隐秘科技
@@ -31963,151 +32060,100 @@ Zydrine	晶状石英核岩
 Zydrine Burn	晶核特醇
 Zydrine Wine	晶核酒
 [CNS] Kiirasha Final Broadcast Fragment	[CNS]基拉莎最终广播片段
+all 4 missile guidance computer bonuses
+
+aoevelocity + aoecloudsize + missilevelocity + explosiondelay	all 4 missile guidance computer bonuses
+
+aoevelocity + aoecloudsize + missilevelocity + explosiondelay
 anchoring	正在锚定
 anchoring	锚定
 antiWarpScrambling	反跃迁干扰
 attributeID	属性ID
 bonus to  Survey Scanner range	测量扫描器距离加成
-bonus to Remote Armor Repairer amount	远程装甲维修器维修量加成
-bonus to Remote Armor Repairer amount	远程装甲维修器维修量加成
-bonus to Remote Armor Repairer and Remote Shield Booster cycle time	远程装甲维修器和远程护盾回充增量器循环周期加成
-bonus to Remote Armor Repairer falloff	远程装甲维修器失准范围加成
-bonus to Remote Armor Repairer optimal range	远程装甲维修器最佳射程加成
-bonus to Remote Armor Repairer optimal range and falloff	远程装甲维修器最佳射程和失准范围加成
-bonus to Strip Miner and Ice Harvester range	露天采矿器和冰矿采集器射程加成
-bonus to Strip Miner yield	露天采矿器开采量加成
-bonus to Target Painter effectiveness	目标标记装置效果加成
-bonus to Target Painter effectiveness	目标标记装置效果加成
-bonus to Target Painter optimal range	目标标记装置最佳射程加成
-bonus to Capital Energy Turret damage	旗舰级能量炮台伤害加成
-bonus to Capital Energy Turret damage	旗舰级能量炮台伤害加成
+bonus to Afterburner velocity bonus	加力燃烧器速度增益加成
+bonus to Armor Plates and Shield Extenders	装甲附甲板和护盾扩展装置加成
+bonus to Armor Repairer amount	装甲维修器维修量加成
+bonus to Armor Repairer cycle time	装甲维修器循环周期加成
 bonus to Armored Command and Information Command Burst effect strength and duration	装甲指挥和信息战指挥脉冲波强度和持续时间加成
 bonus to Armored Command and Information Command burst strength and duration	装甲指挥和信息战指挥脉冲波强度和持续时间加成
 bonus to Armored Command and Skirmish Command Burst effect strength and duration	装甲指挥和游击战指挥脉冲波强度和持续时间加成
 bonus to Armored Command and Skirmish Command burst strength and duration	装甲指挥和游击战指挥脉冲波强度和持续时间加成
-bonus to Capital Hybrid Turret damage	旗舰级混合炮台伤害加成
+bonus to Capital Energy Turret damage	旗舰级能量炮台伤害加成
 bonus to Capital Hybrid Turret damage	旗舰级混合炮台伤害加成
 bonus to Capital Hybrid Turret rate of fire	旗舰级混合炮台射速加成
-bonus to Capital Hybrid Turret rate of fire	旗舰级混合炮台射速加成
-bonus to Capital Projectile Turret damage	旗舰级射弹炮台伤害加成
 bonus to Capital Projectile Turret damage	旗舰级射弹炮台伤害加成
 bonus to Capital Projectile Turret rate of fire	旗舰级射弹炮台射速加成
-bonus to Capital Projectile Turret rate of fire	旗舰级射弹炮台射速加成
-bonus to Relic and Data Analyzer virus strength	遗迹分析仪和数据分析仪病毒强度加成
-bonus to Relic and Data Analyzer virus strength	遗迹分析仪和数据分析仪病毒强度加成
-bonus to Mining Foreman Burst effect strength and duration	开采先锋脉冲波的效果强度和持续时间加成
-bonus to Mining Foreman Links effectiveness	开采先锋网络效果加成
-bonus to Mining Foreman Links effectiveness when using Industrial Core	开采先锋网络使用工业模块时的效果加成
+bonus to Capital Remote Shield Booster range	旗舰级远程护盾回充增量器距离加成
+bonus to Cargo Scanners range	货柜扫描器距离加成
+bonus to Cenobite Support Fighter neutralization optimal range	修道士后勤铁骑舰载机能量中和最佳射程加成
+bonus to Command Burst area of effect range	指挥脉冲波效果范围加成
+bonus to Command and Mining Foreman Burst area of effect range	指挥脉冲波和开采先锋脉冲波效果范围加成
+bonus to Core and Combat Scanner Probe strength	核心和作战扫描探针强度加成
+bonus to Cruise Missile and Torpedo explosion radius	巡航导弹和鱼雷爆炸半径加成
+bonus to Cruise Missile and Torpedo explosion velocity	巡航导弹和鱼雷爆炸速度加成
+bonus to Cruise Missile and Torpedo max velocity	巡航导弹和鱼雷最大飞行速度加成
+bonus to Dromi Support Fighter stasis webification range	德洛米后勤铁骑舰载机停滞缠绕范围加成
+bonus to Drone damage	无人机伤害加成
+bonus to Drone hitpoints	无人机血量加成
+bonus to Drone hitpoints and damage	无人机HP和伤害加成
+bonus to Drone hitpoints and damage	无人机伤害和血量加成
+bonus to Drone hitpoints and tracking speed	无人机HP和跟踪速度加成
+bonus to Drone hitpoints, damage and mining yield	无人机HP、伤害和开采量加成
+bonus to Drone hitpoints, damage and mining yield	无人机伤害、HP和采矿量加成
+bonus to Drone hitpoints, damage and ore mining yield	无人机伤害、HP和采矿量加成
+bonus to Drone max velocity	无人机最大速度加成
+bonus to Drone max velocity and tracking speed	无人机最大速度和跟踪速度加成
+bonus to Drone microwarp velocity	无人机最大速度加成
+bonus to Drone operation range	无人机操纵距离加成
+bonus to Drone optimal range and tracking speed	无人机最佳射程和跟踪速度加成
+bonus to Drone ore mining yield	无人机采矿量加成
+bonus to ECM Burst range	ECM脉冲波范围加成
+bonus to ECM Target Jammer and ECM Burst Jammer optimal range and falloff	ECM目标干扰器和ECM脉冲干扰器最佳射程和失准范围加成
+bonus to ECM Target Jammer and ECM Burst Jammer strength	ECM目标干扰器和ECM脉冲干扰器强度加成
+bonus to ECM Target Jammer optimal range	ECM目标干扰器最佳射程加成
+bonus to ECM Target Jammer optimal range and falloff	ECM目标干扰器最佳射程和失准范围加成
+bonus to ECM Target Jammer strength	ECM目标干扰器强度加成
+bonus to EM Bomb damage	炸弹电磁伤害加成
+bonus to EM Torpedo damage	鱼雷电磁伤害加成
+bonus to EM, explosive and thermal XL Cruise, XL Torpedo and Torpedo damage	电磁、爆炸和热能超大型巡航导弹、超大型鱼雷和鱼雷伤害加成
+bonus to EM, explosive, thermal Light Missile and Rocket damage	轻型导弹和火箭电磁、爆炸和热能伤害加成
+bonus to EM, explosive, thermal Light Missile, Heavy Missile and Heavy Assault Missile damage	轻型导弹，重型导弹与重型攻击导弹电磁、爆炸和热能伤害加成
+bonus to EM, kinetic, thermal Rocket damage	火箭电磁、动能、热能伤害加成
+bonus to Energy Nosferatu and Energy Neutralizer drain amount	掠能器和能量中和器吸取量加成
+bonus to Energy Nosferatu and Energy Neutralizer falloff range	掠能器和能量中和器失准范围加成
+bonus to Energy Nosferatu and Energy Neutralizer optimal range	掠能器和能量中和器最佳射程加成
+bonus to Energy Nosferatu and Energy Neutralizer transfer range	掠能器和能量中和器传输范围加成
+bonus to Energy Nosferatu drain amount	掠能器吸取量加成
+bonus to Energy Nosferatu optimal range and falloff	掠能器最佳射程和失准范围加成
 bonus to Fighter damage	铁骑舰载机伤害加成
 bonus to Fighter hitpoints	铁骑舰载机HP加成
 bonus to Fighter hitpoints	铁骑舰载机血量加成
 bonus to Fighter velocity	铁骑舰载机速度加成
 bonus to Fighter weapon explosion radius and explosion velocity	铁骑舰载机武器爆炸半径和爆炸速度加成
-bonus to Sentry Drone and Heavy Drone damage and hitpoints	岗哨无人机和重型无人机伤害和血量加成
-bonus to Sentry Drone and Heavy Drone damage and hitpoints	岗哨无人机和重型无人机伤害和血量加成
-bonus to Sentry Drone hitpoints and damage	岗哨无人机HP和伤害加成
-bonus to Sentry Drone optimal range and tracking speed	岗哨无人机最佳射程和跟踪速度加成
-bonus to Sentry Drone optimal range and tracking speed	岗哨无人机最佳射程和跟踪速度加成
-bonus to Light Combat Drone damage and hitpoints	轻型战斗无人机伤害和血量加成
-bonus to Light Combat Drone damage and hitpoints	轻型战斗无人机伤害和血量加成
-bonus to Light Drone thermal damage	轻型无人机热能伤害加成
-bonus to Light Drone, Medium Drone, and Heavy Drone hitpoints and damage	轻型无人机、中型无人机和重型无人机HP和伤害加成
-bonus to Tractor Beam range	牵引光束距离加成
-bonus to Tractor Beam range	牵引光束距离加成
-bonus to Tractor Beam range and velocity	牵引光束有效范围和牵引速度加成
-bonus to Tractor Beam range and velocity	牵引光束有效范围和牵引速度加成
-bonus to Tractor Beam velocity	牵引光束牵引速度加成
-bonus to Tractor Beam velocity	牵引光束牵引速度加成
-bonus to Tractor Beams range and velocity	牵引光束有效范围和牵引速度加成
-bonus to Capital Remote Shield Booster range	旗舰级远程护盾回充增量器距离加成
-bonus to Warp Disruption Field Generator scramble range	跃迁扰断力场发生器扰断范围加成
-bonus to Warp Disruption Field Generator scramble range	跃迁扰断力场发生器扰断范围加成
-bonus to Core and Combat Scanner Probe strength	核心和作战扫描探针强度加成
-bonus to Core and Combat Scanner Probe strength	核心和作战扫描探针强度加成
-bonus to XL Cruise Missile Launchers, XL Torpedo Launchers and Rapid Torpedo Launcher rate of fire	超大型巡航导弹发射器、超大型鱼雷发射器和快速鱼雷发射器射速加成
-bonus to XL Cruise, XL Torpedo and Torpedo damage	超大型巡航导弹、超大型鱼雷和鱼雷伤害加成
-bonus to Small Hybrid Turret damage	小型混合炮台伤害加成
-bonus to Small Hybrid Turret damage	小型混合炮台伤害加成
-bonus to Small Hybrid Turret falloff	小型混合炮台失准范围加成
-bonus to Small Hybrid Turret optimal range	小型混合炮台最佳射程加成
-bonus to Small Hybrid Turret rate of fire	小型混合炮台射速加成
-bonus to Small Hybrid Turret tracking speed	小型混合炮台跟踪速度加成
-bonus to Small Hybrid Turret tracking speed	小型混合炮台跟踪速度加成
-bonus to Small Projectile Turret damage	小型射弹炮台伤害加成
-bonus to Small Projectile Turret damage	小型射弹炮台伤害加成
-bonus to Small Projectile Turret falloff	小型射弹炮台失准范围加成
-bonus to Small Projectile Turret optimal range	小型射弹炮台最佳射程加成
-bonus to Small Projectile Turret optimal range	小型射弹炮台最佳射程加成
-bonus to Small Projectile Turret optimal range and falloff	小型射弹炮台最佳射程和失准范围加成
-bonus to Small Projectile Turret tracking speed	小型射弹炮台跟踪速度加成
-bonus to Small Energy Turret damage	小型能量炮台伤害加成
-bonus to Small Energy Turret damage	小型能量炮台伤害加成
-bonus to Small Energy Turret falloff range	小型能量炮台失准范围加成
-bonus to Small Energy Turret optimal range	小型能量炮台最佳射程加成
-bonus to Small Energy Turret optimal range	小型能量炮台最佳射程加成
-bonus to Small Energy Turret tracking speed	小型能量炮台跟踪速度加成
-bonus to Small Energy Turret tracking speed	小型能量炮台跟踪速度加成
-bonus to Small Energy Turret, Small Hybrid Turret and Small Projectile Turret damage	小型能量炮台、小型混合炮台和小型射弹炮台伤害加成
-bonus to Medium Hybrid Turret damage	中型混合炮台伤害加成
-bonus to Medium Hybrid Turret damage	中型混合炮台伤害加成
-bonus to Medium Hybrid Turret falloff	中型混合炮台失准范围加成
-bonus to Medium Hybrid Turret optimal range	中型混合炮台最佳射程加成
-bonus to Medium Hybrid Turret optimal range	中型混合炮台最佳射程加成
-bonus to Medium Hybrid Turret optimal range and falloff	中型混合炮台最佳射程和失准范围加成
-bonus to Medium Hybrid Turret rate of fire	中型混合炮台射速加成
-bonus to Medium Hybrid Turret rate of fire	中型混合炮台射速加成
-bonus to Medium Hybrid Turret tracking	中型混合炮台跟踪速度加成
-bonus to Medium Hybrid Turret tracking speed	中型混合炮台跟踪速度加成
-bonus to Medium Hybrid Turret tracking speed	中型混合炮台跟踪速度加成
-bonus to Medium Projectile Turret damage	中型射弹炮台伤害加成
-bonus to Medium Projectile Turret damage	中型射弹炮台伤害加成
-bonus to Medium Projectile Turret falloff	中型射弹炮台失准范围加成
-bonus to Medium Projectile Turret optimal range	中型射弹炮台最佳射程加成
-bonus to Medium Projectile Turret optimal range and falloff	中型射弹炮台最佳射程和失准范围加成
-bonus to Medium Projectile Turret optimal range and falloff	中型射弹炮台最佳射程和失准范围加成
-bonus to Medium Projectile Turret rate of fire	中型射弹炮台射速加成
-bonus to Medium Projectile Turret rate of fire	中型射弹炮台射速加成
-bonus to Medium Projectile Turret tracking speed	中型射弹炮台跟踪速度加成
-bonus to Medium Projectile Turret tracking speed	中型射弹炮台跟踪速度加成
-bonus to Medium Energy Turret damage	中型能量炮台伤害加成
-bonus to Medium Energy Turret damage	中型能量炮台伤害加成
-bonus to Medium Energy Turret damage	中型能量炮台伤害加成
-bonus to Medium Energy Turret optimal range	中型能量炮台最佳射程加成
-bonus to Medium Energy Turret optimal range	中型能量炮台最佳射程加成
-bonus to Medium Energy Turret optimal range and falloff	中型能量炮台最佳射程和失准范围加成
-bonus to Medium Energy Turret rate of fire	中型能量炮台射速加成
-bonus to Medium Energy Turret tracking speed	中型能量炮台跟踪速度加成
-bonus to Medium Energy Turret tracking speed	中型能量炮台跟踪速度加成
-bonus to Medium Energy Turret, Medium Hybrid Turret and Medium Projectile Turret damage	中型能量炮台、中型混合炮台和中型射弹炮台伤害加成
-bonus to Large Hybrid Turret damage	大型混合炮台伤害加成
-bonus to Large Hybrid Turret damage	大型混合炮台伤害加成
-bonus to Large Hybrid Turret falloff	大型混合炮台失准范围加成
-bonus to Large Hybrid Turret falloff	大型混合炮台失准范围加成
-bonus to Large Hybrid Turret optimal range	大型混合炮台最佳射程加成
-bonus to Large Hybrid Turret rate of fire	大型混合炮台射速加成
-bonus to Large Hybrid Turret rate of fire	大型混合炮台射速加成
-bonus to Large Hybrid Turret tracking speed	大型混合炮台跟踪速度加成
-bonus to Large Hybrid Turret tracking speed	大型混合炮台跟踪速度加成
-bonus to Large Projectile Turret damage	大型射弹炮台伤害加成
-bonus to Large Projectile Turret damage	大型射弹炮台伤害加成
-bonus to Large Projectile Turret falloff	大型射弹炮台失准范围加成
-bonus to Large Projectile Turret falloff	大型射弹炮台失准范围加成
-bonus to Large Projectile Turret rate of fire	大型射弹炮台射速加成
-bonus to Large Projectile Turret rate of fire	大型射弹炮台射速加成
-bonus to Large Projectile Turret tracking speed	大型射弹炮台跟踪速度加成
-bonus to Large Projectile Turret tracking speed	大型射弹炮台跟踪速度加成
+bonus to Heavy Drone max velocity and tracking speed	重型无人机最大速度和跟踪速度加成
+bonus to Heavy Missile and Heavy Assault Missile Launcher rate of fire	重型导弹发射器和重型攻击导弹发射器射速加成
+bonus to Heavy Missile and Heavy Assault Missile damage	重型导弹和重型攻击导弹伤害加成
+bonus to Heavy Missile and Heavy Assault Missile explosion radius	重型导弹和重型攻击导弹的爆炸半径加成
+bonus to Heavy Missile and Heavy Assault Missile explosion velocity	重型导弹和重型攻击导弹爆炸速度加成
+bonus to Heavy Missile and Heavy Assault Missile max velocity	重型导弹和重型攻击导弹最大速度加成
+bonus to Heavy Missile, Cruise Missile and Torpedo damage	重型导弹、巡航导弹和鱼雷伤害加成
 bonus to Large Energy Turret damage	大型能量炮台伤害加成
-bonus to Large Energy Turret damage	大型能量炮台伤害加成
-bonus to Large Energy Turret optimal range	大型能量炮台最佳射程加成
 bonus to Large Energy Turret optimal range	大型能量炮台最佳射程加成
 bonus to Large Energy Turret rate of fire	大型能量炮台射速加成
 bonus to Large Energy Turret tracking speed	大型能量炮台跟踪速度加成
-bonus to Large Energy Turret tracking speed	大型能量炮台跟踪速度加成
-bonus to Rocket Launcher rate of fire	火箭发射器射速加成
-bonus to Rocket damage	火箭伤害加成
-bonus to Rocket explosion velocity	火箭爆炸速度加成
+bonus to Large Hybrid Turret damage	大型混合炮台伤害加成
+bonus to Large Hybrid Turret falloff	大型混合炮台失准范围加成
+bonus to Large Hybrid Turret optimal range	大型混合炮台最佳射程加成
+bonus to Large Hybrid Turret rate of fire	大型混合炮台射速加成
+bonus to Large Hybrid Turret tracking speed	大型混合炮台跟踪速度加成
+bonus to Large Projectile Turret damage	大型射弹炮台伤害加成
+bonus to Large Projectile Turret falloff	大型射弹炮台失准范围加成
+bonus to Large Projectile Turret rate of fire	大型射弹炮台射速加成
+bonus to Large Projectile Turret tracking speed	大型射弹炮台跟踪速度加成
+bonus to Light Combat Drone damage and hitpoints	轻型战斗无人机伤害和血量加成
+bonus to Light Drone thermal damage	轻型无人机热能伤害加成
+bonus to Light Drone, Medium Drone, and Heavy Drone hitpoints and damage	轻型无人机、中型无人机和重型无人机HP和伤害加成
 bonus to Light Missile and Rocket Launcher rate of fire	火箭和轻型导弹发射器射速加成
-bonus to Light Missile and Rocket damage	轻型导弹和火箭伤害加成
 bonus to Light Missile and Rocket damage	轻型导弹和火箭伤害加成
 bonus to Light Missile and Rocket explosion radius	轻型导弹和火箭爆炸半径
 bonus to Light Missile and Rocket explosion radius	轻型导弹和火箭爆炸半径加成
@@ -32117,172 +32163,156 @@ bonus to Light Missile and Rocket rate of fire	火箭和轻型导弹射速加成
 bonus to Light Missile and Rockets damage	轻型导弹和火箭伤害加成
 bonus to Light Missile launcher and Rocket launcher rate of fire	轻型导弹发射器和火箭发射器射速加成
 bonus to Light Missile, Heavy Missile and Heavy Assault Missile damage	轻型导弹、重型导弹和重型攻击导弹伤害加成
-bonus to Light Missile, Heavy Missile and Heavy Assault Missile damage	轻型导弹、重型导弹和重型攻击导弹伤害加成
 bonus to Light Missile, Heavy Missile and Heavy Assault Missile max flight time	轻型导弹, 重型导弹和重型攻击导弹最大飞行时间加成
 bonus to Light Missile, Heavy Missile and Heavy Assault Missile max velocity	轻型导弹, 重型导弹和重型攻击导弹最大飞行速度加成
 bonus to Light Missile, Heavy Missile and Heavy Assault Missile max velocity	轻型导弹、重型导弹和重型攻击导弹最大速度加成
-bonus to Light Missile, Heavy Missile and Heavy Assault Missile max velocity	轻型导弹、重型导弹和重型攻击导弹最大速度加成
-bonus to Heavy Missile and Heavy Assault Missile Launcher rate of fire	重型导弹发射器和重型攻击导弹发射器射速加成
-bonus to Heavy Missile and Heavy Assault Missile damage	重型导弹和重型攻击导弹伤害加成
-bonus to Heavy Missile and Heavy Assault Missile explosion radius	重型导弹和重型攻击导弹的爆炸半径加成
-bonus to Heavy Missile and Heavy Assault Missile explosion velocity	重型导弹和重型攻击导弹爆炸速度加成
-bonus to Heavy Missile and Heavy Assault Missile max velocity	重型导弹和重型攻击导弹最大速度加成
-bonus to Heavy Missile, Cruise Missile and Torpedo damage	重型导弹、巡航导弹和鱼雷伤害加成
-bonus to Heavy Missile, Cruise Missile and Torpedo damage	重型导弹、巡航导弹和鱼雷伤害加成
-bonus to Torpedo Velocity	鱼雷飞行速度加成
-bonus to Torpedo explosion velocity and flight time	鱼雷爆炸速度和飞行时间加成
-bonus to Torpedo max velocity	鱼雷飞行速度加成
-bonus to Cruise Missile and Torpedo explosion radius	巡航导弹和鱼雷爆炸半径加成
-bonus to Cruise Missile and Torpedo explosion velocity	巡航导弹和鱼雷爆炸速度加成
-bonus to Cruise Missile and Torpedo explosion velocity	巡航导弹和鱼雷爆炸速度加成
-bonus to Cruise Missile and Torpedo max velocity	巡航导弹和鱼雷最大飞行速度加成
-bonus to Cruise Missile and Torpedo max velocity	巡航导弹和鱼雷最大飞行速度加成
-bonus to Command Burst area of effect range	指挥脉冲波效果范围加成
-bonus to Command and Mining Foreman Burst area of effect range	指挥脉冲波和开采先锋脉冲波效果范围加成
+bonus to Logistic Drone transfer amount	后勤无人机传输量加成
+bonus to Logistics Drone transfer amount	后勤无人机传输量加成
+bonus to Medium Combat Drone damage and hitpoints	中型战斗无人机伤害和血量加成
+bonus to Medium Energy Turret damage	中型能量炮台伤害加成
+bonus to Medium Energy Turret damage	中型能量炮台伤害加成<a href="showinfo:3306"></a>
+bonus to Medium Energy Turret optimal range	中型能量炮台最佳射程加成
+bonus to Medium Energy Turret optimal range and falloff	中型能量炮台最佳射程和失准范围加成
+bonus to Medium Energy Turret rate of fire	中型能量炮台射速加成
+bonus to Medium Energy Turret tracking speed	中型能量炮台跟踪速度加成
+bonus to Medium Energy Turret, Medium Hybrid Turret and Medium Projectile Turret damage	中型能量炮台、中型混合炮台和中型射弹炮台伤害加成
+bonus to Medium Hybrid Turret damage	中型混合炮台伤害加成
+bonus to Medium Hybrid Turret falloff	中型混合炮台失准范围加成
+bonus to Medium Hybrid Turret optimal range	中型混合炮台最佳射程加成
+bonus to Medium Hybrid Turret optimal range and falloff	中型混合炮台最佳射程和失准范围加成
+bonus to Medium Hybrid Turret rate of fire	中型混合炮台射速加成
+bonus to Medium Hybrid Turret tracking	中型混合炮台跟踪速度加成
+bonus to Medium Hybrid Turret tracking speed	中型混合炮台跟踪速度加成
+bonus to Medium Projectile Turret damage	中型射弹炮台伤害加成
+bonus to Medium Projectile Turret falloff	中型射弹炮台失准范围加成
+bonus to Medium Projectile Turret optimal range	中型射弹炮台最佳射程加成
+bonus to Medium Projectile Turret optimal range and falloff	中型射弹炮台最佳射程和失准范围加成
+bonus to Medium Projectile Turret rate of fire	中型射弹炮台射速加成
+bonus to Medium Projectile Turret tracking speed	中型射弹炮台跟踪速度加成
+bonus to Mining Foreman Burst effect strength and duration	开采先锋脉冲波的效果强度和持续时间加成
+bonus to Mining Foreman Links effectiveness	开采先锋网络效果加成
+bonus to Mining Foreman Links effectiveness when using Industrial Core	开采先锋网络使用工业模块时的效果加成
+bonus to Mining and Gas Cloud Harvesting yield	采矿器和气云采集器开采量加成
+bonus to Mining yield	采矿器开采量加成
+bonus to Mining yield	采矿器采矿量加成
+bonus to Missile velocity	导弹飞行速度加成
+bonus to Ore Mining yield	采矿器采矿量加成
+bonus to Rapid Heavy Missile, Cruise Missile and Torpedo Launcher rate of fire	重型快速导弹、巡航导弹和鱼雷发射器射速加成
+bonus to Rapid Light Missile, Heavy Missile and Heavy Assault Missile Launcher rate of fire	重型导弹发射器 、重型攻击导弹发射器和轻型快速导弹发射器射速加成
+bonus to Relic and Data Analyzer virus strength	遗迹分析仪和数据分析仪病毒强度加成
+bonus to Remote Armor Repairer amount	远程装甲维修器维修量加成
+bonus to Remote Armor Repairer and Remote Shield Booster cycle time	远程装甲维修器和远程护盾回充增量器循环周期加成
+bonus to Remote Armor Repairer falloff	远程装甲维修器失准范围加成
+bonus to Remote Armor Repairer optimal range	远程装甲维修器最佳射程加成
+bonus to Remote Armor Repairer optimal range and falloff	远程装甲维修器最佳射程和失准范围加成
+bonus to Remote Capacitor Transmitter and Remote Armor Repairer amount	远程电容传输装置传输量加成和远程装甲维修器维修量加成
+bonus to Remote Capacitor Transmitter and Remote Shield Booster amount	远程电容传输装置传输量加成和远程护盾回充增量器回充量加成
+bonus to Remote Capacitor Transmitter range	远程电容传输装置距离加成
+bonus to Remote Capacitor Transmitter transfer amount	远程电容传输装置传输量加成
+bonus to Remote Sensor Dampener effectiveness	远程感应抑阻器效果加成
+bonus to Remote Sensor Dampener optimal range and falloff	远程感应抑阻器最佳射程和失准范围加成
+bonus to Remote Sensor Dampener resistance	远程感应抑阻器抗性加成
+bonus to Remote Shield Booster amount	远程护盾回充增量器回充量加成
+bonus to Remote Shield Booster falloff	远程护盾回充增量器失准范围加成
+bonus to Remote Shield Booster optimal range	远程护盾回充增量器最佳射程加成
+bonus to Remote Shield Booster optimal range and falloff	远程护盾回充增量器最佳射程和失准范围加成
+bonus to Remote Tracking Computer effectiveness	远距索敌计算机效果加成
+bonus to Remote Tracking Computer falloff	远距索敌计算机失准范围加成
+bonus to Rocket Launcher rate of fire	火箭发射器射速加成
+bonus to Rocket damage	火箭伤害加成
+bonus to Rocket explosion velocity	火箭爆炸速度加成
+bonus to Scarab Support Fighter ECM optimal range	圣甲虫后勤铁骑舰载机ECM最佳射程加成
+bonus to Sensor Dampener resistance	感应抑阻器抗性加成
+bonus to Sentry Drone and Heavy Drone damage and hitpoints	岗哨无人机和重型无人机伤害和血量加成
+bonus to Sentry Drone hitpoints and damage	岗哨无人机HP和伤害加成
+bonus to Sentry Drone optimal range and tracking speed	岗哨无人机最佳射程和跟踪速度加成
+bonus to Shield Booster amount	护盾回充增量器回充量加成
+bonus to Shield Booster cycle time	护盾回充增量器运转周期加成
 bonus to Shield Command Burst effect strength and duration	护盾指挥脉冲波效果强度和持续时间加成
 bonus to Shield Command and Information Command Burst effect strength and duration	护盾指挥和信息战指挥脉冲波强度和持续时间加成
 bonus to Shield Command and Information Command burst strength and duration	护盾指挥和信息战指挥脉冲波强度和持续时间加成
 bonus to Shield Command and Skirmish Command Burst effect strength and duration	护盾指挥和游击战指挥脉冲波强度和持续时间加成
 bonus to Shield Command and Skirmish Command burst strength and duration	护盾指挥和游击战指挥脉冲波强度和持续时间加成
-bonus to Medium Combat Drone damage and hitpoints	中型战斗无人机伤害和血量加成
-bonus to Medium Combat Drone damage and hitpoints	中型战斗无人机伤害和血量加成
-bonus to Mining and Gas Cloud Harvesting yield	采矿器和气云采集器开采量加成
-bonus to Mining yield	采矿器开采量加成
-bonus to Mining yield	采矿器采矿量加成
-bonus to Ore Mining yield	采矿器采矿量加成
-bonus to Armor Repairer amount	装甲维修器维修量加成
-bonus to Armor Repairer amount	装甲维修器维修量加成
-bonus to Armor Repairer cycle time	装甲维修器循环周期加成
-bonus to Shield Booster amount	护盾回充增量器回充量加成
-bonus to Shield Booster amount	护盾回充增量器回充量加成
-bonus to Shield Booster cycle time	护盾回充增量器运转周期加成
-bonus to Remote Shield Booster amount	远程护盾回充增量器回充量加成
-bonus to Remote Shield Booster amount	远程护盾回充增量器回充量加成
-bonus to Remote Shield Booster falloff	远程护盾回充增量器失准范围加成
-bonus to Remote Shield Booster optimal range	远程护盾回充增量器最佳射程加成
-bonus to Remote Shield Booster optimal range and falloff	远程护盾回充增量器最佳射程和失准范围加成
-bonus to Energy Nosferatu and Energy Neutralizer drain amount	掠能器和能量中和器吸取量加成
-bonus to Energy Nosferatu and Energy Neutralizer falloff range	掠能器和能量中和器失准范围加成
-bonus to Energy Nosferatu and Energy Neutralizer optimal range	掠能器和能量中和器最佳射程加成
-bonus to Energy Nosferatu and Energy Neutralizer transfer range	掠能器和能量中和器传输范围加成
-bonus to Energy Nosferatu drain amount	掠能器吸取量加成
-bonus to Energy Nosferatu optimal range and falloff	掠能器最佳射程和失准范围加成
-bonus to Remote Capacitor Transmitter and Remote Armor Repairer amount	远程电容传输装置传输量加成和远程装甲维修器维修量加成
-bonus to Remote Capacitor Transmitter and Remote Shield Booster amount	远程电容传输装置传输量加成和远程护盾回充增量器回充量加成
-bonus to Remote Capacitor Transmitter range	远程电容传输装置距离加成
-bonus to Remote Capacitor Transmitter transfer amount	远程电容传输装置传输量加成
-bonus to ECM Burst range	ECM脉冲波范围加成
-bonus to ECM Target Jammer and ECM Burst Jammer optimal range and falloff	ECM目标干扰器和ECM脉冲干扰器最佳射程和失准范围加成
-bonus to ECM Target Jammer and ECM Burst Jammer strength	ECM目标干扰器和ECM脉冲干扰器强度加成
-bonus to ECM Target Jammer optimal range	ECM目标干扰器最佳射程加成
-bonus to ECM Target Jammer optimal range and falloff	ECM目标干扰器最佳射程和失准范围加成
-bonus to ECM Target Jammer strength	ECM目标干扰器强度加成
-bonus to ECM Target Jammer strength	ECM目标干扰器强度加成
-bonus to Remote Sensor Dampener effectiveness	远程感应抑阻器效果加成
-bonus to Remote Sensor Dampener optimal range and falloff	远程感应抑阻器最佳射程和失准范围加成
-bonus to Remote Tracking Computer effectiveness	远距索敌计算机效果加成
-bonus to Remote Tracking Computer falloff	远距索敌计算机失准范围加成
-bonus to Weapon Disruptor effectiveness	武器扰断器效果加成
-bonus to Weapon Disruptor optimal range	武器扰断器最佳射程加成
-bonus to warp scrambler and warp disruptor maximum range	跃迁扰频器和跃迁扰断器有效距离加成
-bonus to Drone damage	无人机伤害加成
-bonus to Drone damage	无人机伤害加成
-bonus to Drone hitpoints	无人机血量加成
-bonus to Drone hitpoints and damage	无人机伤害和血量加成
-bonus to Drone hitpoints and damage	无人机HP和伤害加成
-bonus to Drone hitpoints and damage	无人机伤害和血量加成
-bonus to Drone hitpoints and tracking speed	无人机HP和跟踪速度加成
-bonus to Drone hitpoints and tracking speed	无人机HP和跟踪速度加成
-bonus to Drone hitpoints, damage and mining yield	无人机伤害、HP和采矿量加成
-bonus to Drone hitpoints, damage and mining yield	无人机HP、伤害和开采量加成
-bonus to Drone hitpoints, damage and ore mining yield	无人机伤害、HP和采矿量加成
-bonus to Drone max velocity	无人机最大速度加成
-bonus to Drone max velocity and tracking speed	无人机最大速度和跟踪速度加成
-bonus to Drone microwarp velocity	无人机最大速度加成
-bonus to Drone operation range	无人机操纵距离加成
-bonus to Drone operation range	无人机操纵距离加成
-bonus to Drone optimal range and tracking speed	无人机最佳射程和跟踪速度加成
-bonus to Drone optimal range and tracking speed	无人机最佳射程和跟踪速度加成
-bonus to Drone ore mining yield	无人机采矿量加成
-bonus to Logistic Drone transfer amount	后勤无人机传输量加成
-bonus to Logistic Drone transfer amount	后勤无人机传输量加成
-bonus to Logistics Drone transfer amount	后勤无人机传输量加成
-bonus to Heavy Drone max velocity and tracking speed	重型无人机最大速度和跟踪速度加成
-bonus to Heavy Drone max velocity and tracking speed	重型无人机最大速度和跟踪速度加成
-bonus to Afterburner velocity bonus	加力燃烧器速度增益加成
-bonus to Afterburner velocity bonus	加力燃烧器速度增益加成
+bonus to Siren Support Fighter warp disruption range	塞壬后勤铁骑舰载机跃迁干扰范围加成
+bonus to Small Energy Turret damage	小型能量炮台伤害加成
+bonus to Small Energy Turret falloff range	小型能量炮台失准范围加成
+bonus to Small Energy Turret optimal range	小型能量炮台最佳射程加成
+bonus to Small Energy Turret tracking speed	小型能量炮台跟踪速度加成
+bonus to Small Energy Turret, Small Hybrid Turret and Small Projectile Turret damage	小型能量炮台、小型混合炮台和小型射弹炮台伤害加成
+bonus to Small Hybrid Turret damage	小型混合炮台伤害加成
+bonus to Small Hybrid Turret falloff	小型混合炮台失准范围加成
+bonus to Small Hybrid Turret optimal range	小型混合炮台最佳射程加成
+bonus to Small Hybrid Turret rate of fire	小型混合炮台射速加成
+bonus to Small Hybrid Turret tracking speed	小型混合炮台跟踪速度加成
+bonus to Small Projectile Turret damage	小型射弹炮台伤害加成
+bonus to Small Projectile Turret falloff	小型射弹炮台失准范围加成
+bonus to Small Projectile Turret optimal range	小型射弹炮台最佳射程加成
+bonus to Small Projectile Turret optimal range and falloff	小型射弹炮台最佳射程和失准范围加成
+bonus to Small Projectile Turret tracking speed	小型射弹炮台跟踪速度加成
 bonus to Stasis Webification Burst Projector effectiveness	停滞缠绕脉冲波投射器效果加成
-bonus to Cargo Scanners range	货柜扫描器距离加成
-bonus to Survey Scanner range	测量扫描器距离加成
-bonus to Survey Scanner range	测量扫描器距离加成
-bonus to Warp Scrambler and Warp Disruptor optimal range	跃迁扰频器和跃迁扰断器最佳射程加成
-bonus to Warp Scrambler and Warp Disruptor optimal range	跃迁扰频器和跃迁扰断器有效距离加成
-bonus to Warp Scrambler optimal range	跃迁扰频器最佳射程加成
-bonus to Stasis Webifier effectiveness	停滞缠绕光束效果加成
 bonus to Stasis Webifier effectiveness	停滞缠绕光束效果加成
 bonus to Stasis Webifier max velocity factor	停滞缠绕光束最大速度影响系数加成
 bonus to Stasis Webifier optimal range	停滞缠绕光束最佳射程加成
 bonus to Stasis Webifier range	停滞缠绕光束射程加成
-bonus to Stasis Webifier range	停滞缠绕光束射程加成
-bonus to Armor Plates and Shield Extenders	装甲附甲板和护盾扩展装置加成
-bonus to Cenobite Support Fighter neutralization optimal range	修道士后勤铁骑舰载机能量中和最佳射程加成
-bonus to Dromi Support Fighter stasis webification range	德洛米后勤铁骑舰载机停滞缠绕范围加成
-bonus to EM Bomb damage	炸弹电磁伤害加成
-bonus to EM Torpedo damage	鱼雷电磁伤害加成
-bonus to EM, explosive and thermal XL Cruise, XL Torpedo and Torpedo damage	电磁、爆炸和热能超大型巡航导弹、超大型鱼雷和鱼雷伤害加成
-bonus to EM, explosive, thermal Light Missile and Rocket damage	轻型导弹和火箭电磁、爆炸和热能伤害加成
-bonus to EM, explosive, thermal Light Missile, Heavy Missile and Heavy Assault Missile damage	轻型导弹，重型导弹与重型攻击导弹电磁、爆炸和热能伤害加成
-bonus to EM, kinetic, thermal Rocket damage	火箭电磁、动能、热能伤害加成
-bonus to Missile velocity	导弹飞行速度加成
-bonus to Rapid Light Missile, Heavy Missile and Heavy Assault Missile Launcher rate of fire	重型导弹发射器 、重型攻击导弹发射器和轻型快速导弹发射器射速加成
-bonus to Rapid Light Missile, Heavy Missile and Heavy Assault Missile Launcher rate of fire	重型导弹发射器 、重型攻击导弹发射器和轻型快速导弹发射器射速加成
-bonus to Rapid Heavy Missile, Cruise Missile and Torpedo Launcher rate of fire	重型快速导弹、巡航导弹和鱼雷发射器射速加成
-bonus to Rapid Heavy Missile, Cruise Missile and Torpedo Launcher rate of fire	重型快速导弹、巡航导弹和鱼雷发射器射速加成
-bonus to Remote Sensor Dampener resistance	远程感应抑阻器抗性加成
-bonus to Scarab Support Fighter ECM optimal range	圣甲虫后勤铁骑舰载机ECM最佳射程加成
-bonus to Sensor Dampener resistance	感应抑阻器抗性加成
-bonus to Siren Support Fighter warp disruption range	塞壬后勤铁骑舰载机跃迁干扰范围加成
 bonus to Stasis effect resistance	停滞效果抗性加成
+bonus to Strip Miner and Ice Harvester range	露天采矿器和冰矿采集器射程加成
+bonus to Strip Miner yield	露天采矿器开采量加成
+bonus to Survey Scanner range	测量扫描器距离加成
+bonus to Target Painter effectiveness	目标标记装置效果加成
+bonus to Target Painter optimal range	目标标记装置最佳射程加成
+bonus to Torpedo Velocity	鱼雷飞行速度加成
+bonus to Torpedo explosion velocity and flight time	鱼雷爆炸速度和飞行时间加成
+bonus to Torpedo max velocity	鱼雷飞行速度加成
+bonus to Tractor Beam range	牵引光束距离加成
+bonus to Tractor Beam range and velocity	牵引光束有效范围和牵引速度加成
+bonus to Tractor Beam velocity	牵引光束牵引速度加成
+bonus to Tractor Beams range and velocity	牵引光束有效范围和牵引速度加成
+bonus to Warp Disruption Field Generator scramble range	跃迁扰断力场发生器扰断范围加成
+bonus to Warp Scrambler and Warp Disruptor optimal range	跃迁扰频器和跃迁扰断器最佳射程加成
+bonus to Warp Scrambler and Warp Disruptor optimal range	跃迁扰频器和跃迁扰断器有效距离加成
+bonus to Warp Scrambler optimal range	跃迁扰频器最佳射程加成
 bonus to Weapon Disruption resistance	武器干扰抗性加成
+bonus to Weapon Disruptor effectiveness	武器扰断器效果加成
+bonus to Weapon Disruptor optimal range	武器扰断器最佳射程加成
+bonus to XL Cruise Missile Launchers, XL Torpedo Launchers and Rapid Torpedo Launcher rate of fire	超大型巡航导弹发射器、超大型鱼雷发射器和快速鱼雷发射器射速加成
+bonus to XL Cruise, XL Torpedo and Torpedo damage	超大型巡航导弹、超大型鱼雷和鱼雷伤害加成
 bonus to all Amarr Defensive Systems effectiveness	艾玛防御子系统效果加成
 bonus to all Amarr Electronic Systems effectiveness	艾玛电子子系统效果加成
+bonus to all Amarr Engineering Systems effectiveness	艾玛工程子系统效果加成
 bonus to all Amarr Offensive Systems effectiveness	艾玛攻击子系统效果加成
 bonus to all Amarr Propulsion Systems effectiveness	艾玛推进子系统效果加成
-bonus to all Amarr Engineering Systems effectiveness	艾玛工程子系统效果加成
-bonus to all Gallente Defensive Systems effectiveness	盖伦特防御子系统效果加成
-bonus to all Gallente Electronic Systems effectiveness	盖伦特电子子系统效果加成
-bonus to all Caldari Electronic Systems effectiveness	加达里电子子系统效果加成
-bonus to all Minmatar Electronic Systems effectiveness	米玛塔尔电子子系统效果加成
+bonus to all Armor Resistances	装甲抗性加成
 bonus to all Caldari Defensive Systems effectiveness	加达里防御子系统效果加成
-bonus to all Minmatar Defensive Systems effectiveness	米玛塔尔防御子系统效果加成
-bonus to all Gallente Engineering Systems effectiveness	盖伦特工程子系统效果加成
-bonus to all Minmatar Engineering Systems effectiveness	米玛塔尔工程子系统效果加成
+bonus to all Caldari Electronic Systems effectiveness	加达里电子子系统效果加成
 bonus to all Caldari Engineering Systems effectiveness	加达里工程子系统效果加成
 bonus to all Caldari Offensive Systems effectiveness	加达里攻击子系统效果加成
-bonus to all Gallente Offensive Systems effectiveness	盖伦特攻击子系统效果加成
-bonus to all Minmatar Offensive Systems effectiveness	米玛塔尔攻击子系统效果加成
 bonus to all Caldari Propulsion Systems effectiveness	加达里推进子系统效果加成
+bonus to all Gallente Defensive Systems effectiveness	盖伦特防御子系统效果加成
+bonus to all Gallente Electronic Systems effectiveness	盖伦特电子子系统效果加成
+bonus to all Gallente Engineering Systems effectiveness	盖伦特工程子系统效果加成
+bonus to all Gallente Offensive Systems effectiveness	盖伦特攻击子系统效果加成
 bonus to all Gallente Propulsion Systems effectiveness	盖伦特推进子系统效果加成
+bonus to all Minmatar Defensive Systems effectiveness	米玛塔尔防御子系统效果加成
+bonus to all Minmatar Electronic Systems effectiveness	米玛塔尔电子子系统效果加成
+bonus to all Minmatar Engineering Systems effectiveness	米玛塔尔工程子系统效果加成
+bonus to all Minmatar Offensive Systems effectiveness	米玛塔尔攻击子系统效果加成
 bonus to all Minmatar Propulsion Systems effectiveness	米玛塔尔推进子系统效果加成
-bonus to all Armor Resistances	装甲抗性加成
 bonus to all armor resistances	装甲抗性加成
 bonus to all shield resistances	护盾抗性加成
 bonus to armor hitpoints	装甲值加成
 bonus to capacitor booster charge strength	电容注电器注电强度加成
 bonus to drone damage and hitpoints	无人机伤害和血量加成
 bonus to explosive Bomb damage	炸弹爆炸伤害加成
-bonus to explosive Rocket damage	火箭爆炸伤害加成
 bonus to explosive Light Missile and Rocket damage	轻型导弹和火箭爆炸伤害加成
+bonus to explosive Rocket damage	火箭爆炸伤害加成
 bonus to explosive Torpedo damage	鱼雷爆炸伤害加成
 bonus to fleet hangar capacity	舰队机库容量加成
 bonus to kinetic Bomb damage	炸弹动能伤害加成
-bonus to kinetic XL Cruise, XL Torpedo and Torpedo damage	动能超大型巡航导弹、超大型鱼雷和鱼雷伤害加成
+bonus to kinetic Heavy Missile and Heavy Assault Missile damage	重型导弹和重型攻击导弹动能伤害加成
 bonus to kinetic Light Missile and Rocket damage	轻型导弹和火箭动能伤害加成
 bonus to kinetic Light Missile, Heavy Missile and Heavy Assault Missile damage	轻型导弹、重型导弹和重型攻击导弹动能伤害加成
-bonus to kinetic Light Missile, Heavy Missile and Heavy Assault Missile damage	轻型导弹、重型导弹和重型攻击导弹动能伤害加成
-bonus to kinetic Heavy Missile and Heavy Assault Missile damage	重型导弹和重型攻击导弹动能伤害加成
-bonus to kinetic Heavy Missile and Heavy Assault Missile damage	重型导弹和重型攻击导弹动能伤害加成
 bonus to kinetic Torpedo damage	鱼雷动能伤害加成
+bonus to kinetic XL Cruise, XL Torpedo and Torpedo damage	动能超大型巡航导弹、超大型鱼雷和鱼雷伤害加成
 bonus to kinetic and thermal missile damage	动能和热能导弹伤害加成
 bonus to maximum capacitor pool	电容器池最大容量加成
 bonus to missile damage	导弹伤害加成
@@ -32309,6 +32339,7 @@ bonus to ship warp core strength	舰船跃迁核心强度加成
 bonus to the benefits of overheating Afterburners, Microwarpdrives, Local Repair Modules, and Resistance Modules	加力燃烧器、微型跃迁推进器、自身维修装备和抗性提升装备超载后获得的效果提升增加
 bonus to thermal Bomb damage	炸弹热能伤害加成
 bonus to thermal Torpedo damage	鱼雷热能伤害加成
+bonus to warp scrambler and warp disruptor maximum range	跃迁扰频器和跃迁扰断器有效距离加成
 bonus to warp speed and warp acceleration	跃迁速度和跃迁加速加成
 chantal testing thingy	试验品
 colins test Hulk	科林 测试霍克舰
@@ -32347,87 +32378,77 @@ multiRelayEffect	多重中继效果
 newEwTestsDecrease Target Speed	新型Ew测试降低目标速度
 online	启用
 online	在线
-penalty to Weapon Disruptor optimal range and falloff	武器扰断器最佳射程和失准范围惩罚
 penalty to Entosis Link cycle time	侵噬链接运转周期惩罚
 penalty to Entosis Link duration	侵噬链接运转周期惩罚
+penalty to Weapon Disruptor optimal range and falloff	武器扰断器最佳射程和失准范围惩罚
 penalty to missile flight time	导弹飞行时间惩罚
 points	点
 powergrid Output	能量栅格输出量
 projectileFired	射弹已发射
 rad/sec	r/s
 rate of fire bonus	射击速度加成
-reduction in Cloaking Devices CPU requirement	隐形装置的CPU需求降低
+reduction in Afterburner and Microwarpdrive activation cost	加力燃烧器和微型跃迁推进器启动消耗减少
+reduction in CPU requirements for Command Burst modules	指挥脉冲波CPU需求降低
+reduction in Capital Energy Turret activation cost	旗舰级能量炮台启动消耗减少
 reduction in Cloaking Devices CPU requirement	隐形装置CPU需求降低
 reduction in Cloaking Devices CPU requirement	隐形装置的CPU需求降低
-reduction in Reinforced Bulkhead CPU requirements	加强型舱隔壁的CPU需求降低
-reduction in Remote Armor Repairer activation cost	远程装甲维修器启动消耗减少
-reduction in Remote Armor Repairer activation cost	远程装甲维修器启动消耗减少
-reduction in Remote Armor Repairer activation cost	远程装甲维修器启动消耗降低
-reduction in Remote Armor Repairer cycle time	远程装甲维修器循环时间减少
-reduction in Remote Armor Repairer duration and activation cost	远程装甲维修器运转周期和启动消耗减少
-reduction in Remote Armor Repairer powergrid requirement	远程装甲维修器能量栅格需求降低
-reduction in Remote Armor Repairer powergrid requirement	远程装甲维修器能量栅格需求降低
-reduction in Ice Harvester duration and activation cost	冰矿采集器运转周期和启动消耗减少
-reduction in Strip Miner and Ice Harvester duration	露天采矿器和冰矿采集器运转周期缩短
-reduction in Strip Miner and Ice Harvester duration and activation cost	露天采矿器和冰矿采集器运转周期和启动消耗降低
-reduction in Survey Probe flight time	测量探针飞行时间加成
-reduction in Capital Energy Turret activation cost	旗舰级能量炮台启动消耗减少
 reduction in Cynosural Field Generator duration	诱导力场发生器运转时间加成
-reduction in Cynosural Field Generator duration	诱导力场发生器运转时间加成
-reduction in Cynosural Field Generator liquid ozone consumption	诱导力场发生器激活装备所消耗的液态臭氧数量降低
 reduction in Cynosural Field Generator liquid ozone consumption	生成诱导力场所需液化臭氧数量降低
-reduction in Tractor Beam duration	牵引光束运转周期降低
+reduction in Cynosural Field Generator liquid ozone consumption	诱导力场发生器激活装备所消耗的液态臭氧数量降低
+reduction in Drone ice harvesting cycle time	无人机冰矿开采循环时间缩短
+reduction in ECM Jammer Burst Projector cycle time	ECM干扰脉冲波投射器运转周期缩短
+reduction in ECM Target Jammer activation cost	ECM目标干扰器启动消耗减少
+reduction in Energy Nosferatu CPU requirement	掠能器CPU需求降低
 reduction in Gas Cloud Harvesting duration	气云采集器运转周期缩短
 reduction in Gas Cloud Harvesting duration	气云采集器运转周期降低
-reduction in Salvager duration	打捞装置运转周期降低
-reduction in ECM Jammer Burst Projector cycle time	ECM干扰脉冲波投射器运转周期缩短
-reduction in Small Energy Turret activation cost	小型能量炮台启动消耗减少
-reduction in Small Energy Turret activation cost	小型能量炮台启动消耗加成
-reduction in Small Energy Turret activation cost	小型能量炮台启动消耗减少
-reduction in Small Energy Turret activation cost	小型能量炮台启动消耗加成
-reduction in Medium Energy Turret activation cost	中型能量炮台启动消耗减少
+reduction in Ice Harvester duration and activation cost	冰矿采集器运转周期和启动消耗减少
+reduction in Ice Harvesting duration	冰矿采集器运转周期缩短
+reduction in Large Energy Turret CPU requirement	大型能量炮台CPU需求降低
+reduction in Large Energy Turret activation cost	大型能量炮台启动消耗减少
+reduction in Large Energy Turret powergrid requirement	大型能量炮台能量栅格需求降低
 reduction in Large Hybrid Turret CPU requirement	大型混合炮台CPU需求降低
 reduction in Large Hybrid Turret activation cost	大型混合炮台启动消耗减少
 reduction in Large Hybrid Turret powergrid requirement	大型混合炮台能量栅格需求降低
 reduction in Large Projectile Turret CPU requirement	大型射弹炮台CPU需求降低
 reduction in Large Projectile Turret powergrid requirement	大型射弹炮台能量栅格需求降低
-reduction in Large Energy Turret CPU requirement	大型能量炮台CPU需求降低
-reduction in Large Energy Turret activation cost	大型能量炮台启动消耗减少
-reduction in Large Energy Turret powergrid requirement	大型能量炮台能量栅格需求降低
-reduction in missile launcher reload time	导弹发射器装填时间缩短
-reduction in Torpedo Launcher powergrid requirement	鱼雷发射器能量栅格需求降低
+reduction in Medium Energy Turret activation cost	中型能量炮台启动消耗减少
+reduction in Micro Jump Drive reactivation delay	微型跳跃引擎启动间隔加成
+reduction in Micro Jump Field Generator spool up time	微型跳跃力场发生器加速时间减少
+reduction in Microwarpdrive signature radius penalty	微型跃迁推进器的信号半径惩罚减少
+reduction in Microwarpdrive signature radius penalty	微型跃迁推进器的信号半径惩罚加成
+reduction in Propulsion Jamming systems activation cost	推进抑制系统启动消耗减少
+reduction in Propulsion Jamming systems activation cost	推进抑制系统启动消耗加成
+reduction in Reinforced Bulkhead CPU requirements	加强型舱隔壁的CPU需求降低
+reduction in Remote Armor Repairer activation cost	远程装甲维修器启动消耗减少
+reduction in Remote Armor Repairer activation cost	远程装甲维修器启动消耗降低
+reduction in Remote Armor Repairer cycle time	远程装甲维修器循环时间减少
+reduction in Remote Armor Repairer duration and activation cost	远程装甲维修器运转周期和启动消耗减少
+reduction in Remote Armor Repairer powergrid requirement	远程装甲维修器能量栅格需求降低
+reduction in Remote Capacitor Transmitter activation cost	远程电容传输装置启动消耗减少
+reduction in Remote Capacitor Transmitter powergrid requirement	远程电容传输装置能量栅格需求降低
+reduction in Remote Sensor Dampener activation cost	远程感应抑阻器启动消耗减少
 reduction in Remote Shield Booster CPU requirement	远程护盾回充增量器CPU需求降低
-reduction in Remote Shield Booster activation cost	远程护盾回充增量器启动消耗减少
 reduction in Remote Shield Booster activation cost	远程护盾回充增量器启动消耗减少
 reduction in Remote Shield Booster and Remote Capacitor Transmitter activation cost	远程护盾回充增量器和远程电容传输装置启动消耗减少
 reduction in Remote Shield Booster duration and activation cost	远程护盾回充增量器运转周期和启动消耗减少
-reduction in Energy Nosferatu CPU requirement	掠能器CPU需求降低
-reduction in Remote Capacitor Transmitter activation cost	远程电容传输装置启动消耗减少
-reduction in Remote Capacitor Transmitter powergrid requirement	远程电容传输装置能量栅格需求降低
-reduction in ECM Target Jammer activation cost	ECM目标干扰器启动消耗减少
-reduction in ECM Target Jammer activation cost	ECM目标干扰器启动消耗减少
-reduction in Remote Sensor Dampener activation cost	远程感应抑阻器启动消耗减少
-reduction in Weapon Disruptor activation cost and CPU requirements	索敌扰断器启动消耗和CPU需求降低
-reduction in Propulsion Jamming systems activation cost	推进抑制系统启动消耗减少
-reduction in Propulsion Jamming systems activation cost	推进抑制系统启动消耗加成
-reduction in Afterburner and Microwarpdrive activation cost	加力燃烧器和微型跃迁推进器启动消耗减少
-reduction in Microwarpdrive signature radius penalty	微型跃迁推进器的信号半径惩罚加成
-reduction in Microwarpdrive signature radius penalty	微型跃迁推进器的信号半径惩罚减少
-reduction in Microwarpdrive signature radius penalty	微型跃迁推进器的信号半径惩罚加成
-reduction in Ice Harvesting duration	冰矿采集器运转周期缩短
-reduction in Micro Jump Field Generator spool up time	微型跳跃力场发生器加速时间减少
+reduction in Salvager duration	打捞装置运转周期降低
 reduction in Sensor Dampening Burst Projector cycle time	感应抑阻脉冲波投射器运转周期缩短
+reduction in Small Energy Turret activation cost	小型能量炮台启动消耗减少
+reduction in Small Energy Turret activation cost	小型能量炮台启动消耗加成
+reduction in Strip Miner and Ice Harvester duration	露天采矿器和冰矿采集器运转周期缩短
+reduction in Strip Miner and Ice Harvester duration and activation cost	露天采矿器和冰矿采集器运转周期和启动消耗降低
+reduction in Survey Probe flight time	测量探针飞行时间加成
 reduction in Target Illumination Burst Projector cycle time	目标照明脉冲波投射器运转周期缩短
-reduction in Weapon Disruption Burst Projector cycle time	武器干扰脉冲波投射器运转周期缩短
-reduction in Drone ice harvesting cycle time	无人机冰矿开采循环时间缩短
-reduction in Micro Jump Drive reactivation delay	微型跳跃引擎启动间隔加成
-reduction in Micro Jump Drive reactivation delay	微型跳跃引擎启动间隔加成
+reduction in Torpedo Launcher powergrid requirement	鱼雷发射器能量栅格需求降低
+reduction in Tractor Beam duration	牵引光束运转周期降低
 reduction in Warp Scrambler and Warp Disruptor activation cost	跃迁扰频器和跃迁扰断器启动消耗减少
-reduction in CPU requirements for Command Burst modules	指挥脉冲波CPU需求降低
+reduction in Weapon Disruption Burst Projector cycle time	武器干扰脉冲波投射器运转周期缩短
+reduction in Weapon Disruptor activation cost and CPU requirements	索敌扰断器启动消耗和CPU需求降低
 reduction in capacitor recharge time	电容回充速度加成
 reduction in fuel consumption for Industrial Core	工业核心燃料消耗减少
 reduction in jump fuel requirement	跳跃燃料需求减少
 reduction in missile launcher reload time	导弹发射器装填时间减少
+reduction in missile launcher reload time	导弹发射器装填时间缩短
 reduction in module heat damage amount taken	减少装备遭受的超载损伤
 reduction in powergrid requirements for Command Bursts	指挥脉冲波能量栅格需求降低
 reduction in powergrid requirements for Command and Mining Foreman Burst Modules	指挥脉冲波和开采先锋脉冲波能量栅格需求降低
@@ -32437,6 +32458,7 @@ reduction in ship signature radius	舰船信号半径降低
 reduction in signature radius	信号半径降低
 reduction to effective distance traveled for jump fatigue	减少跳跃疲劳对有效距离的影响
 reduction to effective distance traveled for jump fatigue	减少跳跃距离对产生跳跃疲劳的影响
+rig time bonus on manufacture of all ships	建筑改装件对制造所有舰船的时间影响效果
 sec	s
 sensorBoosterActivated	激活传感增效器
 shield Transfer Range	护盾传输范围
@@ -32448,6 +32470,7 @@ shipHybridTrackingBonus	舰船混合炮台跟踪加成
 speedBoost	速度增加
 targetAttack	目标攻击
 testing group	测试组
+this is the online effect for structures	这能起到启用建筑的效果
 torpedoLaunching	鱼雷发射
 turretWeaponCapacitorMultiply	炮台武器电容修正值
 typeID	类别ID

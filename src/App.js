@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Input, Segment, Table } from 'semantic-ui-react'
+import { Header, Input, Table } from 'semantic-ui-react'
 import trn from './trn.txt'
 import './App.css'
 const DISPLAY_MAX_INDEX = 20
@@ -43,12 +43,14 @@ class App extends Component {
     const hideNum = mthRows.length - dspRows.length
 
     return (
-      <div className="App">
-        <Table compact striped selectable>
+      <div id='wrapper'>
+        <Table id='list' compact striped selectable>
           <Table.Header>
             <Table.Row>
-              <Table.HeaderCell colSpan='2' textAlign='right' active>
-                <span>{mthRows.length} / {allRows.length}</span>
+              <Table.HeaderCell>
+                <Header as='h1' content={document.title} />
+              </Table.HeaderCell>
+              <Table.HeaderCell textAlign='right'>
                 <Input placeholder='Search' onChange={this.handleKeyword}
                        icon='search' autoFocus />
               </Table.HeaderCell>
@@ -63,7 +65,7 @@ class App extends Component {
           ))
           }
           {hideNum > 0 ? (
-            <Table.Row disabled key={Number.MAX_SAFE_INTEGER} className='more'>
+            <Table.Row disabled key={Number.MAX_SAFE_INTEGER}>
               <Table.Cell colSpan='2'>{hideNum} more...</Table.Cell>
             </Table.Row>
           ) : null}
@@ -71,7 +73,7 @@ class App extends Component {
         </Table>
 
         <footer>
-          <p className="inner">Dazzy Ding | <a href="https://github.com/wxt2005/bangumi-list">Github</a></p>
+          <p>&copy; Dazzy Ding | <a href="https://github.com/yukixz/eve-trn">Github</a></p>
         </footer>
       </div>
     )
