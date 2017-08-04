@@ -54,7 +54,8 @@ class App extends Component {
   }
 
   createFilterSearch = (keyword) => (rows) => {
-    return rows.filter(r => r.searchString.includes(keyword))
+    const kw = keyword.toLowerCase()
+    return rows.filter(r => r.searchString.includes(kw))
   }
 
   render() {
