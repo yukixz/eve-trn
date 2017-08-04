@@ -3,6 +3,7 @@
   max-width: 896px;
   margin: 0 auto;
 }
+
 footer {
   color: #777;
 }
@@ -11,13 +12,16 @@ footer a {
   text-decoration: none;
 }
 
+#main td {
+  width: 50%;
+}
+#main th div {
+  margin-left: 1rem;
+}
+
 .ui.table tr td.disabled,
 .ui.table tr.disabled td,
 .ui.table tr.disabled:hover,
 .ui.table tr:hover td.disabled {
   font-style: italic;
-}
-
-#list td {
-  width: 50%;
 }
