@@ -4,9 +4,11 @@ const { spawnSync } = require('child_process')
 
 // Add flag into trnTranslations
 spawnSync('sqlite3', ["latest.sqlite", `
-  ALTER TABLE trnTranslations ADD flag BOOL;
+  ALTER TABLE trnTranslations ADD flag BOOL
+  `])
+spawnSync('sqlite3', ["latest.sqlite", `
   UPDATE trntranslations SET flag=0;
-  UPDATE trntranslations SET flag=1 WHERE tcID IN (8,33) AND keyID IN (SELECT typeID FROM invTypes);
+  UPDATE trntranslations SET flag=1 WHERE tcID IN (8,33) AND keyID IN (SELECT typeID FROM invTypes WHERE published=1);
   `])
 
 // Export trnTranslations from database
