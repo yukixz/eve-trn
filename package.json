@@ -2,8 +2,9 @@
   "name": "eve-trns",
   "version": "0.2.0",
   "private": true,
-  "homepage" : "/trn",
+  "homepage": "/trn",
   "dependencies": {
+    "csv-parse": "^1.2.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-scripts": "1.0.10",
