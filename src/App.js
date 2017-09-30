@@ -8,14 +8,18 @@ class App extends Component {
   state = {
     rows   : [],
     filters: [],
+    isLoading: true,
   }
   cacheRows     = []
   cacheFilters  = []
-  defaultCommon = true
-  defaultSearch = ''
 
   componentDidMount() {
     this.init()
+    const filters = [
+      this.createFilterCommon(),
+      this.createFilterSearch(),
+    ]
+    this.setState({ filters })
   }
 
   init = async () => {
@@ -29,13 +33,8 @@ class App extends Component {
         searchString: `${en}\t${zh}`.toLowerCase(),
       }
     })
-    // Init filters
-    const filters = [
-      this.createFilterCommon(this.defaultCommon),
-      this.createFilterSearch(this.defaultSearch),
-    ]
     // Refresh
-    this.setState({rows, filters})
+    this.setState({ rows, isLoading: false })
   }
 
   updateFilter = (i, createFilter) => (evt, data) => {
@@ -45,34 +44,37 @@ class App extends Component {
       undefined
     const filters = this.state.filters.slice()
     filters[i] = createFilter(value)
-    this.setState({filters})
+    this.setState({ filters })
   }
 
-  createFilterCommon = (isTrue) => (rows) => {
+  createFilterCommon = (isTrue=true) => (rows) => {
     return isTrue === false ? rows :
       rows.filter(r => r.common === '1')
   }
 
-  createFilterSearch = (keyword) => (rows) => {
+  createFilterSearch = (keyword="") => (rows) => {
     const kw = keyword.toLowerCase()
     return rows.filter(r => r.searchString.includes(kw))
   }
 
   render() {
-    const { filters } = this.state
+    const { filters, isLoading } = this.state
     const { cacheRows, cacheFilters } = this
 
     let rows = this.state.rows
-    let firstMiss = filters.findIndex((f, i) => f !== cacheFilters[i])
-    if (firstMiss > 0)
-      rows = cacheRows[firstMiss - 1]
-    else
-      firstMiss = 0
-    for (let i = firstMiss; i < filters.length; i++) {
-      const filter = filters[i]
-      rows = filter(rows)
-      cacheRows[i] = rows
-      cacheFilters[i] = filter
+    if (isLoading === false) {
+      for (const [i, filter] of filters.entries()) {
+        if (filter === cacheFilters[i]) {
+          console.log(`cache hit ${i}`)
+          rows = cacheRows[i]
+        }
+        else {
+          console.log(`cache miss ${i}`)
+          rows = filter(rows)
+          cacheRows[i] = rows
+          cacheFilters[i] = filter
+        }
+      }
     }
 
     const dspRows = rows.slice(0, rows.length < DISPLAY_MAX_INDEX ? rows.length : DISPLAY_MAX_INDEX)
@@ -87,8 +89,7 @@ class App extends Component {
                 <Header as='h1' content={document.title} />
               </Table.HeaderCell>
               <Table.HeaderCell textAlign='right'>
-                <Checkbox label={'Common Only'}
-                          defaultChecked={this.defaultCommon}
+                <Checkbox label={'Published'} defaultChecked
                           onChange={this.updateFilter(0, this.createFilterCommon)} />
                 <Input placeholder='Search' icon='search' autoFocus
                        onChange={this.updateFilter(1, this.createFilterSearch)} />
@@ -101,10 +102,14 @@ class App extends Component {
               <Table.Cell>{row.en}</Table.Cell>
               <Table.Cell>{row.zh}</Table.Cell>
             </Table.Row>
-          ))
-          }
+          ))}
+          {isLoading ? (
+            <Table.Row disabled>
+              <Table.Cell colSpan='2'>Loading...</Table.Cell>
+            </Table.Row>
+          ) : null}
           {hideNum > 0 ? (
-            <Table.Row disabled key={Number.MAX_SAFE_INTEGER}>
+            <Table.Row disabled>
               <Table.Cell colSpan='2'>{hideNum} more...</Table.Cell>
             </Table.Row>
           ) : null}
@@ -112,7 +117,11 @@ class App extends Component {
         </Table>
 
         <footer>
-          <p>&copy; <a href="https://dazzyd.org">Dazzy Ding</a> | <a href="https://github.com/yukixz/eve-trn">Github</a></p>
+          <p>
+            &copy; <a href="https://dazzyd.org">Dazzy Ding</a> | <a href="https://github.com/yukixz/eve-trn">Github</a>
+            <br/>
+            All Eve Related Materials are property of <a href="https://www.ccpgames.com/">CCP Games</a>
+          </p>
         </footer>
       </div>
     )
