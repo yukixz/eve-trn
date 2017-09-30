@@ -14,16 +14,15 @@ class App extends Component {
   cacheFilters  = []
 
   componentDidMount() {
-    this.init()
     const filters = [
       this.createFilterCommon(),
       this.createFilterSearch(),
     ]
     this.setState({ filters })
+    this.load()
   }
 
-  init = async () => {
-    // Fetch translations
+  load = async () => {
     const resp = await fetch(trn)
     const data = await resp.text()
     const rows = data.split('\n').map((r, id) => {
@@ -33,7 +32,6 @@ class App extends Component {
         searchString: `${en}\t${zh}`.toLowerCase(),
       }
     })
-    // Refresh
     this.setState({ rows, isLoading: false })
   }
 
@@ -62,14 +60,16 @@ class App extends Component {
     const { cacheRows, cacheFilters } = this
 
     let rows = this.state.rows
+    let isCacheHit = true
     if (isLoading === false) {
       for (const [i, filter] of filters.entries()) {
-        if (filter === cacheFilters[i]) {
+        if (isCacheHit && filter === cacheFilters[i]) {
           console.log(`cache hit ${i}`)
           rows = cacheRows[i]
         }
         else {
           console.log(`cache miss ${i}`)
+          isCacheHit = false
           rows = filter(rows)
           cacheRows[i] = rows
           cacheFilters[i] = filter
