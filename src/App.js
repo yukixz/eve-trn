@@ -29,7 +29,8 @@ class App extends Component {
       const [en, zh, common] = r.split('\t')
       return {
         id, en, zh, common,
-        searchString: `${en}\t${zh}`.toLowerCase(),
+        enlc: en.toLowerCase(),
+        zhlc: zh.toLowerCase(),
       }
     })
     this.setState({ rows, isLoading: false })
@@ -51,8 +52,28 @@ class App extends Component {
   }
 
   createFilterSearch = (keyword="") => (rows) => {
+    // 0: full match
+    // 1: start with
+    // 2: partial match
+    const group = Array(3).fill().map(i => [])
     const kw = keyword.toLowerCase()
-    return rows.filter(r => r.searchString.includes(kw))
+    for (const row of rows) {
+      const { enlc, zhlc } = row
+      if (enlc === kw || zhlc === kw) {
+        group[0].push(row)
+        continue
+      }
+      if (enlc.startsWith(kw) || zhlc.startsWith(kw)) {
+        group[1].push(row)
+        continue
+      }
+      if (enlc.includes(kw) || zhlc.includes(kw)) {
+        group[2].push(row)
+        continue
+      }
+    }
+    return group.reduce((acc, cur) => acc.concat(cur), [])
+    // return rows.filter(r => r.searchString.includes(kw))
   }
 
   render() {
@@ -64,11 +85,11 @@ class App extends Component {
     if (isLoading === false) {
       for (const [i, filter] of filters.entries()) {
         if (isCacheHit && filter === cacheFilters[i]) {
-          console.log(`cache hit ${i}`)
+          // console.log(`cache hit ${i}`)
           rows = cacheRows[i]
         }
         else {
-          console.log(`cache miss ${i}`)
+          // console.log(`cache miss ${i}`)
           isCacheHit = false
           rows = filter(rows)
           cacheRows[i] = rows
